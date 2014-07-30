@@ -1,0 +1,5 @@
+#FUNC _MAIN BOOL
+	#CALL PLAYSOUND 2 savemsg.voc
+	#RET TRUE
+#ENDFUNC
+

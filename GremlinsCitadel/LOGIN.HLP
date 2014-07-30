@@ -1,0 +1,23 @@
+                                   2HELP LOGIN0
+ 
+ 2--- Logging in ---0
+ 
+ L         -- Login.
+ .L in;pw  -- Single-Line login.
+ 
+ The Login command logs you onto GremCit, and lets you use the system
+more effectively than you could otherwise.  The single-line variant of
+this command is useful for users who wish to use an auto-login facility
+of their terminal program.  If you are a new user, GremCit will ask you
+if you want to be added to the userlog.  Usually, it is a good idea to say
+yes.
+ 
+ 
+ 2--- Related Topics ---0
+ 
+ .h SPECIAL
+ .h CONFIG
+ .h ANSI
+ .h INTRO
+  
+

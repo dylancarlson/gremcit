@@ -1,0 +1,195 @@
+ Changes To DragCit 3.12A/609 By Anticlimactic Teleservices Ltd.
+
+ *** Phase one ***
+
+ 1.  Converted DragCit to Microsoft C 6.00A
+ 2.  Replaced Serial routines with SER.ASM
+ 3.  Replaced SWAP with Spawno
+ 4.  Replaced Xmodem.c with reliable WC.C from gremcit/pre Acit
+ 5.  X>clude room needs no confirmation
+ 6.  '?' door function added to Apsystem()
+ 7.  Put .rd .rt .ri etc. back in.
+ 8.  Read Verbose Textfile added
+ 9.  Old f10 help menu put back in
+ 10. Password not displayed in .read configuration
+ 11. Back to n total, n messages, n new
+ 12. Added  message # range to .RS
+ 13. Infofiles can handle 30 character user names
+ 14. #alldone removed from config.cit
+ 15. #oldcount implemented
+ 16. No longer makes logged-in user a Sysop on F6-X (sysop exit)
+ 17. Added '&' enter config.cit from sysop menu.
+ 18. Added command line switch -E, same as F6-&
+ 19. Implemented #DIRPATH
+ 20. Implemented #ANONAUTHOR
+ 21. Implemented #TWITREGION
+ 22. Implemented #TWITCOUNTRY
+ 23. Implemented #DIAL_RING
+ 24. Implemented #UP_HOURS
+ 25. Implemented #UP_DAYS
+ 26. 'C'ontinue from edit menu prints out message.
+ 27. Anonymous E-mail is allowed.
+ 28. added .R! (LZH file) for lack of a better key.
+ 29. Configurable display of titles & surnames
+ 30. Configurable display of subjects
+ 31. Configurable display of signatures
+ 32. Configurable display of IBM Graphics Character
+ 33. User configurable Color Attributes
+ 34. Ega 43 line support.
+ 35. #NETMAIL in config.cit. put net mail in proper room if it exists.
+ 36. #SUBHUBS re-Implemented
+ 37. #SYSOP, messages to sysop will go to #SYSOP
+ 38. Acit Cron-list, Acit Read Userlog, Acit .RB, Acit holidays, Acit #ROOM
+ 39. network dialout pays attention to modem response codes.
+ 40. Colors allowed in room names, titles & surnames etc.. 
+     #TWIT_FEATURES COLORS  enables entry of color stuff on your board.
+ 41. Full support of colors in everything.  Colors passed through on net.
+ 42. Auto baud rate on net dial out.  
+     IMPORTANT CHANGE: all #dial_ring users now use #dumbmodem 3
+                       all other hayes compat users use #dumbmodem 0
+ 
+     #baud   Nuked from nodes.cit   (auto-baud detect)
+     #redial Nuked from nodes.cit   (not used)
+ 43. Config checks paths to see if they exist.
+ 44. Auto Resizing message and log files, up and down.  
+     via #MESSAGEK & #MAXLOGTAB
+ 45. Message tables reduced to 15 bytes per message.
+ 46. Added Acit Cron Force Event and Set next event. 
+     Net mail now includes source room names.  Net mail lands in proper rooms.
+ 47. Command line logins -U and -P added. -U <username> and -P <initials;pw> 
+ 48. .AQueue menu added, multiple message marking functions.
+ 49. FrogCit pointer edit menu userlog edit 'Z' added.
+ 
+ *** Phase two ***
+
+ 50. #baud put back in to nodes.cit.  Important!!! Run CNVRT50.EXE (conversion).
+     faster msg and log resizing.
+ 51. Forwarding to node implemented (see info below).
+     May cause non Grem-Cits to act screwy.
+     -V (debug mode command line switch added).   32K #NMESSAGES Limit.
+     Message tables reduced to 13 bytes per message.
+ 52. acit-style highlighted "incorporating" post-network display.
+     trap networking better. old-style help.
+     FredCit Cron.Tab stuff added. Create empty mail file for net 1_1.
+ 53. Trap Cron events.  In trapfile say if login is on console.
+     clock on status line. old-style front end. 
+     re-implemented #enterok, #readok, #forcelogin.
+     net1_69 implemented (see info below).  show net Id's in .KV. 
+     if aide ask if shared when making room.  show nmessages in read status.
+ 54. Dialout Mode Improved. 
+     1_69: #AUTOROOM and #VERBOSE: Auto-Create Room, more comprehensive
+     net warnings.  #ALIAS in config cit (not used yet).
+     Auto-Application rooms (autorun application upon entry).
+ 55. Compile under Borland-C 3.0.  ^C not displayed when hit on console.
+     Format messages for external editor. Ctrl-A? in message editor.
+     Tell why net dialout failed, trap it. No verify on .EOM. 
+     Must use Ctdl -C for re-config. '<' file input from edit menu.
+     #NODEPHONE (xxx) xxx-xxxx please.  Rotating Signatures, unlimited #.
+     #SCREENSAVER (set to number of minutes or zero to disable)
+     Fixed Slave/Door mode. -L and -S parameters are replaced by -A. 
+     #MAX_WARN removed from config.cit.  <V>erbose key while outputting.
+     .RRI and .RRD.
+ 56. Acit Fuel Bar when Reconfigging message base.  User Config Twirly Cursor.
+     #Sysop sees all group only msgs.
+     Added #MESSAGE_NYM and #BORDER to config.cit.
+ 57. Ansi Colors in dial-out mode.  User Config Auto-Verbose.
+     .V (auto verbose toggle). User Config pause after msg.
+ 58. User Config datestamp.  User config loginstats.
+     #loginstats removed from config.cit.  #sysop immune from all groups.
+     Alt-Z (sleeping user) key added.  Xms/Ems/Virt message table support.
+     Hall stats in .rs.  Force reconfig when updating versions.
+     Unknown message header thingy passing and storage. Poop!
+     1024 room limit (Big version only).  .AH <partialname> works right.
+     Excluded rooms listed under 'excluded' and never in 'no unseen' in .KR.
+     User config CLS before msgs.  Print Hello.blb on local if debug on.
+     User config hall descriptions.  User config room info lines.
+     Full high speed serial support. Dumbmodem 5 steps port rate down
+     for 3/12/24 connects so buffering doesn't screw users up.
+     Real message pointers (no 16 visit garbage).
+     You can k>ill m>ark when doing read by message #.
+     .U<return> .D<return> use default protocol. 
+     erase log,msg,room,cron tab files when -C is specified.
+     lock baud rate when netting out when #dumbmodem 4, 5 or 6.
+     Dumbmodem 6 steps port rate down on incoming calls also issues
+        #downshift.
+     Re-did 'Z' pointer edit menu. 
+     Configurable by user net prefix
+        When changing your net prefix. <Return> uses what you had before.
+       <space><return> uses config.cit net.prefix.
+       <space><space><return> blanks it out. 
+     Added torbocit style autoansi detect.. #AUTOANSI 0, 1 or 2 in config.cit.
+     #FORWARD 1 will forward sysop messages to #SYSOP
+     #CONNECTWAIT will wait #seconcds upon carrier detect. This is to
+        make auto-ansi function when connecting with high speed modems.
+        redid .AH and .AW.
+     Alt-S invokes screen_saver if screensaver is activated in config.cit. 
+
+                ***  Net 1_69 Info ***
+
+
+  Net 1_69 is net 1_6 with the following mods.
+
+  1. Requesting messages with net ID's.
+  -------------------------------------
+  1a.  When creating roomrec.tmp.  It retrieves rooms to be requested 
+from from rooms.cit NET ID field.  It requests every room net ID of rooms
+that are shared and that the other node has group access to.
+When parsing roomreq it matches requested rooms with netID's instead of
+room names.
+
+  1b. When it gets the messages back it scans rooms.cit instead of nodes
+cit for rooms to put messages in. to match #'s for incorporation.
+
+  2. How to handle the room field of net messages and moved messages.
+  -------------------------------------------------------------------
+ 2a. When netting out in net 6_9. It compares the room field of the message
+to the room name. and if they match then write the NET.ID to the room
+field of the message. If they don't match then leaave the room field
+of the message alone.
+
+  2b. When netting in it compares the room field of the message against
+the net.id. if they don't match, message has been moved, leave the
+room field of the message unaltered.  If they match, write the room name
+into that field.
+
+
+                ***  Forwarding to Node Info ***
+
+
+     92Mar19 09:53:26 From [Wow,] The Gremlin [actually posted.]
+   
+   E-mail forwarding to node trash. (first draft). As implemented in Gremcit  
+.51 for anyone who cares. 
+  
+  label forward_node;  added to log buffer in ctdl.h. is the node name for 
+e-mail to be forwarded. 
+  
+  (conversion program provided (a first)) 
+  
+ Rules for Forwarded net e-mail as implemented so far. 
+  
+  Recipient = person in the T field. 
+  Forwardee = person in the F field. 
+   
+   
+ 1. If a message is forwarded to a node.  RECIPIENT on local system sees 
+message and may respond.   
+  
+ 2. FORWARDEE  on net e-mail does not see message on local system. 
+  
+ 3. On recieving node RECIPIENT does not see message, only FORWARDEE sees it. 
+  
+ 4, When netting in forwarded net E-mail check for existance of FORWARDEE 
+instead of RECIPIENT.  
+  
+  
+    the mbfwdhash variable in the message table serves a very limited  
+function.  Allows RECIPIENT on local system to see forwarded net e-mail. and 
+allows RECIPIENT to see regular non-netted forwarded e-mail, again local use 
+only.  
+  
+  Since mtfwdhash is a local thing only I am thinking I can use the mtomesg 
+(origin id) field for it and go down to 13 bytes per message. 
+------
+YOMIT.
+

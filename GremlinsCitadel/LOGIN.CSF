@@ -1,0 +1,15 @@
+#FUNC _MAIN BOOL
+//	  #CALL PLAYSOUND 2 login.voc
+	#lvar string20 _username
+	#lvar string80 _sentance
+
+	#call getusername
+	#asgn _username _result
+
+	#str c "Login of user " _username "."
+	#asgn _sentance _result
+
+	#call sayascii _sentance
+	#RET TRUE
+#ENDFUNC
+

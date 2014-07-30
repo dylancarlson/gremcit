@@ -1,0 +1,26 @@
+%s (%d) Error: invalid data for %s
+%s (%d) Error: %s not in function
+%s - Warning: Unknown command %s
+%s (%d) : Unknown type %d
+%s (%d) : Variable %s not found
+%s (%d) : Bad cmd
+%s (%d) : No label %s
+%s (%d) : No ENDIF
+%s (%d) : Cannot compare two CONSTs
+%s (%d) : Unknown type %d
+%s : Unknown type in argument %d of %s
+%s (%d) : Too many parameters in call to %s
+%s (%d) : Out of memory
+%s (%d) : Unknown function (%s)
+%s (%d) : #LOOP without #DO
+%s (%d) : Unknown command type (%d)
+Cannot find %s!
+VOID
+INT
+UINT
+LONG
+ULONG
+BOOL
+STRING
+FALSE
+TRUE

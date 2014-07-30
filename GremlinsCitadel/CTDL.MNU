@@ -1,0 +1,264 @@
+#mainopt
+ 3A0>ide fn: edit room
+ 3B0>ypass this room
+ 3C0>hat with sysop
+ 3D0>ownload 
+ 3E0>nter message
+ 3F0>orward
+ 3G0>oto room with new 
+ 3H0>elp with system         
+ 3I0>ntroduction to system 
+ 3J0>ump back to last room
+ 3K0>nown rooms  
+ 3L0>ogin  
+ 3M0>ail (.EE)
+ 3N0>ew messages
+ 3O0>ld messages    
+ 3R0>everse
+ 3T0>erminate
+ 3U0>pload
+ 3X0>clude this room
+ 3+0> Next room (=)            
+ 3-0> Previous room      
+ 3>0> Next hall (])     
+ 3<0> Previous hall ([)     
+ 3;0> Small chat
+ 3.0> Dot command
+ 3?0> this menu
+#maindot
+ 3.A0>ide fn:
+ 3.B0>ypass         
+ 3.D0>ownload
+ 3.E0>nter
+ 3.G0>oto           
+ 3.H0>elp
+ 3.I0>nvite
+ 3.K0>nown          
+ 3.L0>ogin          
+ 3.R0>ead           
+ 3.S0>ysop fn:
+ 3.T0>erminate
+ 3.U0>pload
+ 3.V0>erbose
+ 3.X0>pert on/off
+ 3.?0> this menu
+#readopt
+ 3.RA0>ll    
+ 3.RB0>y User    
+ 3.RC0>onfiguration         
+ 3.RD0>irectory
+ 3.RE0>xclusive  
+ 3.RF0>orward    
+ 3.RG0>roup-only 
+ 3.RH0>allways              
+ 3.RI0>nfo file
+ 3.RK0>eyword search (*)
+ 3.RL0>imited access
+ 3.RM0>essages              
+ 3.RN0>ew        
+ 3.RO0>ld        
+ 3.RP0>ublic     
+ 3.RR0>everse    
+ 3.RS0>tatus                
+ 3.RT0>ext file
+ 3.RU0>serlog               
+ 3.RV0>erbose    
+ 3.RW0>c protocol download
+ 3.RZ0>ip file
+ 3.R?0> this menu
+#aide
+ 3.AA0>ttributes
+ 3.AC0>hat                  
+ 3.AE0>dit room 
+ 3.AF0>ile info set, multi
+ 3.AG0>roup access
+ 3.AH0>allway change
+ 3.AI0>nsert marked message
+ 3.AJ0>ump to Aide & Maintenance
+ 3.AK0>ill room
+ 3.AL0>ist group
+ 3.AM0>ove file
+ 3.AN0>ame messages
+ 3.AQ0>ueue fn:
+ 3.AR0>ename file
+ 3.AS0>et file info
+ 3.AU0>nlink file
+ 3.AV0>iew help 
+ 3.AW0>indow room
+ 3.A+0> Move room forward 
+ 3.A-0> Move room backward
+ 3.A<0> Copy message to old-buffer
+ 3.A?0> this menu
+#edit
+ 3A0>bort
+ 3C0>ontinue
+ 3D0>elete msg buffer
+ 3F0>ind and Replace
+ 3P0>rint formatted
+ 3R0>eplace text
+ 3S0>ave message
+ 3V0>erify spelling
+ 3W0>ord count
+ 3!0> Subject / Signature (I,U)
+ 3@0> Address
+ 3*0> Name change
+ 3<0> File input
+ 3?0> this list
+#entopt
+ 3.EA0>pplication
+ 3.EB0>orderline
+ 3.EC0>onfiguration         
+ 3.ED0>oor
+ 3.EE0>xclusive message
+ 3.EG0>roup only message
+ 3.EH0>allway
+ 3.EL0>imited access
+ 3.EM0>essage
+ 3.EN0>ame
+ 3.EO0>ld message
+ 3.EP0>assword
+ 3.ER0>oom
+ 3.ES0>urname
+ 3.ET0>extfile
+ 3.EW0>C protocol upload
+ 3.EX0>clude room
+ 3.E*0> File linked message
+ 3.E?0> this menu
+#grpglob
+ 3.SGGA0>dd users to group
+ 3.SGGB0>oth add and remove users
+ 3.SGGR0>emove users from group
+ 3.SGG?0> this menu
+#known
+ 3.K00> Empty rooms
+ 3.KA0>pplication rooms
+ 3.KB0>io rooms 
+ 3.KD0>irectory rooms       
+ 3.KG0>roup only rooms
+ 3.KH0>allways
+ 3.KI0>nfo on room & hall
+ 3.KL0>ocal rooms
+ 3.KM0>ail rooms (E)
+ 3.KN0>ew rooms
+ 3.KO0>ld rooms
+ 3.KP0>ermanent rooms
+ 3.KR0>ooms 
+ 3.KS0>hared rooms
+ 3.KT0>his hall only
+ 3.KV0>erbose
+ 3.KW0>indow rooms
+ 3.KX0>cluded rooms
+ 3.KY0> Anonymous rooms
+ 3.K#0> of messages
+ 3.K)0> Hidden rooms
+ 3.K?0> this menu
+#sysop
+ 3.SA0>bort back to main
+ 3.SC0>ron fn: 
+ 3.SD0>ate/time change      
+ 3.SE0>nter config files:
+ 3.SF0> Aide fn:
+ 3.SG0>roup fn: 
+ 3.SH0>all fn:
+ 3.SJ0>ournal room to file
+ 3.SK0>ill user        
+ 3.SL0>ogin new enable      
+ 3.SM0>ass del user's mesgs
+ 3.SN0>ew user verification
+ 3.SO0>ff hook, busy modem  
+ 3.SP0>urge userlog  
+ 3.SR0>eset info file
+ 3.SS0>how user          
+ 3.SU0>ser edit           
+ 3.SV0>iew sysop help file 
+ 3.SX0>it GremCit      
+ 3.SZ0>ap empty rooms      
+ 3.S!0> Shell to DOS   
+ 3.S@0> Supershell to DOS
+ 3.S#0> Read by message # 
+ 3.S$0> System status
+ 3.S&0> Enter CONFIG.CIT  
+ 3.S*0> Ambiguous unlink
+ 3.S?0> this menu
+#sysgroup
+ 3.SGG0>lobal membership
+ 3.SGK0>ill group
+ 3.SGL0>ist group
+ 3.SGN0>ew group
+ 3.SGR0>ename group
+ 3.SGU0>ser global membership
+ 3.SG?0> this menu
+#syshall
+ 3.SHF0>orce access
+ 3.SHG0>lobal room add/remove
+ 3.SHK0>ill
+ 3.SHL0>ist
+ 3.SHN0>ew
+ 3.SHR0>ename
+ 3.SH+0> Move hall forward
+ 3.SH-0> Move hall backward
+ 3.SH?0> this menu
+#cron
+ 3A0>ll done
+ 3D0>one event
+ 3E0>nter Cron file
+ 3F0>orce event
+ 3L0>ist event
+ 3N0>ext event set
+ 3P0>ause events
+ 3R0>eset event
+ 3S0>et success time
+ 3Z0>ap event
+ 3?0> -- this menu
+#volkswagen
+ 340>11 or 412
+ 3B0>eetle or Bus
+ 3C0>abriolet or Corrado
+ 3D0>asher
+ 3E0>urovan
+ 3F0>ox
+ 3G0>olf
+ 3J0>etta
+ 3K0>armann Ghia
+ 3P0>assat
+ 3Q0>uantum
+ 3R0>abbit
+ 3S0>quareback or Scirocco
+ 3T0>hing
+ 3V0>anagon
+ 3W0>olfsburg Limited Edition...
+ 3?0> -- this menu
+#terminate
+ 3Q0>uit-also
+ 3S0>tay
+ 3V0>erbose
+ 3?0> -- this menu
+#aidequeue
+ 3A0>uto Mark/Kill/Censor
+ 3C0>lear
+ 3I0>nsert
+ 3K0>ill
+ 3L0>ist
+ 3M0>ove
+ 3R0>oom Mark
+ 3S0>ort
+ 3V0>erbose...
+ 3?0> -- this menu
+#sysnet
+ 3F0>etch
+ 3I0>ncorporate
+ 3R0>oom Request
+ 3@0>Build address
+ 3?0> -- this menu
+#sysenter
+ 3.SEA0>ll *.Cit files
+ 3.SEC0>onfig.Cit
+ 3.SEE0>xternal.Cit
+ 3.SEG0>rpdata.Cit
+ 3.SET0> Cron.Cit
+ 3.SE?0> -- this menu
+#invite
+ 3.IL0>ist users
+ 3.IR0>ooms
+ 3.IU0>ser
+ 3.I?0> -- this menu

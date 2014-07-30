@@ -1,0 +1,43 @@
+                               3cHELP SPECIAL0
+ 
+                        3g--- Locking Out Rooms ---0
+ 
+  3b.EX0  -- Enter eXclude-Room
+  3bX0    -- eXclude Room
+
+    This room will be excluded from the default go-to rooms with unread
+messages search.  You can still see the room in the Known rooms list, and
+.Goto it explicitly.  To re-include a room, you must apply this command again
+in the same room.
+ 
+                        3g--- Status information ---0
+ 
+  3b.RC0  -- Read Configuration
+  3b.RS0  -- Read Status
+
+    Read Configuration gives userlog specific information, such as terminal
+configurations, forwarding address, groups memberships, and default
+hallways.  Read Status gives system-wide global information, like the highest
+current message number, average message length, how long the system has been
+running, and how long the current user has been logged in.
+ 
+                             3g--- Userlog ---0
+ 
+  3b.RU0  -- Read Userlog
+  3b.RVU0 -- Read Verbose Userlog
+
+    These commands list all listed users of the system.  The verbose option
+prints out the call number along with the user's name.
+ 
+                           3g--- Applications ---0
+ 
+  3b.EA0  -- Enter Application
+
+    This runs whatever application the room may have.
+ 
+                          3g--- Related Topics ---0
+ 
+                          3cLOGIN  MESSAGES  ROOMS0
+ 
+ 
+

@@ -1,0 +1,15 @@
+                            3cRead Commands:0             
+ 
+  3b.RC0>onfiguration      3b.RH0>allways   3b.RM0>essages    3b.RU0>serlog
+  3b.RD0>irectory          3b.RI0>nfo-file  3b.RT0>ext file   3b.RZ0>IP file
+ 
+ 
+                                3gModifiers:0           
+ 
+  3b.RB0>y User            3b.RE0>xclusive            3b.RF0>orward
+  3b.RG0>roup-only         3b.RN0>ew                  3b.RO0>ld
+  3b.RP0>ublic             3b.RR0>everse (default)    3b.RV0>erbose 
+ 
+                     3b.RK0>eyword search (in current room)
+ 
+

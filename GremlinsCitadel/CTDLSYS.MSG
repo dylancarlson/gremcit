@@ -1,0 +1,267 @@
+2Privileged function:0 
+Reset %s: hall
+Cron special: 
+Offhook
+Date change
+Enter config file: 
+Group special: 
+Hallway special: 
+Info file reset
+Journal room to file
+Kill account
+Login enabled
+Mass delete
+NewUser Verification
+Purge userlog
+Run script
+file to run
+Show user
+Userlog edit
+View Help Text File
+Exit to MS-DOS
+Zap empty rooms
+Shell
+Super Shell
+6.9 Network special: 
+Auxmem debug info
+ usexms: %d  xmshand: %u  xmssize: %uK
+ emsframe: %u  emshand: %u  emssize: %u (16K pages)
+ vrthand: %u, vrtpags: %u
+ mtChunk %2d is in 
+heap
+XMS 
+EMS 
+virt
+ memory at %p. It holds slots %7lu to %7lu.
+ rtChunk %2d is in 
+ The free chunk is in 
+ memory at %p.
+Read by %s number
+System status
+Unlink file(s)
+Enter CONFIG.CIT file.
+Full Path Download 
+ -- Only when on console.
+Edit group
+Group-specific membership 
+Kill group
+New group
+User-specific membership
+Force access
+Kill hallway
+List halls
+New hall
+Edit hall
+Global Hall function
+file(s) to unlink
+(%d) file%s unlinked
+File%s %s unlinked in room %s]
+Verify
+%s verified by %s
+Kill account
+Un-verified user %s terminated
+All *.CIT config files.
+ -- Accounting disabled
+full path of file to download
+Only one filespec allowed
+Protocol is not batch
+All Done
+All events set to done.
+Done event
+Enter Cron file
+Force event
+List events
+Next event set
+Pause %s
+Reset event
+Zap event
+event (0 = None)
+No cron events.
+ Current date is now: %s
+ Current time is now: %s
+ Enter a new date & time
+Cannot kill your own account, log out first.
+Kill user '%s'
+'%s' terminated.
+User %s terminated
+Delete all %s from %s
+%d %s killed.
+All messages from %s deleted
+<3N0> 3N0ame................ %s0
+<310> Title............... %s0
+<320> Surname............. %s0
+<3L0> 3L0ock T & Surname.... %s
+<3_0> User Signature...... %s
+<3K0> loc3K0 User Signature. %s
+<3Y0> S3y0sop............... %s
+<3D0> Ai3d0e................ %s
+<3O0> N3o0de................ %s
+<3P0> 3P0ermanent........... %s
+<3E0> N3e0tuser............. %s
+<3T0> 3T0witted............. %s
+<3M0> 3M0ail................ %s
+<3V0> 3V0erified............ %s
+<3B0> 3B0orders............. %s
+<3H0> Lock Default 3H0all... %s
+<3U0> 3U0nlisted............ %s
+<3X0> Auto Ne3X0t Hall...... %s
+<3C0> No 3C0hat............. %s
+<330> 33000 Baud Output..... %s
+<340> Psycho user......... %s
+<3*0> View Censored msg... %s
+<350> Upload.............. %s
+<360> Download............ %s
+<370> Trap to Printfile... %s
+<3I0> T3i0me (minutes)......
+N/A
+<3Z0> Pointer edit menu
+    Password............ %s;%s
+<3S0> to save, <3A0> to abort.
+2Change:0 
+Lock default hall: %s
+Lock title and surname: %s
+Name
+new name
+Title
+new title
+Surname
+new surname
+Upload %s
+Download %s
+User Signature
+new user signature
+Lock user signature: %s
+Sysop %s
+Borders %s
+Unlisted %s
+Auto next hall %s
+No Chat %s
+Trap to printfile %s
+Censored %s %%s
+300 baud simulation %s
+Psycho %s
+Aide %s
+Node %s
+Permanent %s
+Netuser %s
+Twit/Problem user %s
+Mail %s
+Verified %s
+Minutes
+Disable user's accounting
+%s2 in account
+Accounting turned off for system.
+%s has:
+ Sysop:
+ Aide:
+ Node:
+ No Accounting:
+ Permanent:
+ Net User:
+ Problem User:
+ No Mail:
+ Un-Verified:
+ Range is %ld - %ld
+%s2 number to read
+Value out of range.
+%s not viewable.
+The following empty rooms deleted by %s: 
+ ##   Type      String                Redo    Retry    Succeeded    Attempted
+Zapped 
+   N/A     
+     N/A
+ 2All events paused0
+ 3<0 - Current event
+ 3+0 - Can do event
+ 3-0 - Last attempt failed
+<3N0> Name.................... %s
+<3D0> Description............. %s
+None
+<3L0> Locked.................. %s
+<3H0> Hidden.................. %s
+<3U0> Auto-add................ %s
+Group Name
+new name for group
+A "%s" group already exists
+Description
+new group description
+Locked group
+Lock group from aides
+Hidden group
+Make group hidden
+Auto-add group
+Make group auto-add
+The group "%s" is always auto-add.
+Group "%s" renamed to "%s"
+Hall name:
+Hall group:
+We already have a "%s" hall.
+group for hall
+Hall %s created
+<3N0> Name.................... %s
+<3G0> Access Group............ %s
+None
+<3U0> Users can create rooms.. %s
+<3D0> Description File........ %s
+Hall Name
+new name for hall
+A "%s" hall already exists
+Access Group
+group for hall
+Users can create rooms
+Can users create rooms
+Description File
+Description
+description filename
+Hall %s renamed %s
+Description file:
+Users can create rooms:
+The hall must have a name
+Current hall: %s
+Press a key...
+<3R0> 3R0oom Creation....... %s
+number of messages (0 for all)
+Room name:
+Network ID:
+Infoline:
+Directory:
+Application:
+Archive File:
+Description File:
+Dictionary File:
+Access Group:
+Privileges Group:
+Read only:
+Group moderates:
+Download only:
+Upload only:
+Hidden:
+Anonymous:
+Moderated:
+Auto App:
+Permanent:
+Subject:
+Networked:
+BIO:
+The room must have a name
+A "%s" Network ID already exists.
+Need an application for auto application
+Cannot make this room group only.
+Cannot be both download only and upload only
+Need to have a privileges group to set privileges
+Group name:
+Group description:
+Lock from aides:
+Hidden:
+Auto-add:
+ We already have a "%s" group.
+group description
+Lock group from aides
+Hide group
+Auto-add group
+Group %s created
+Add all users to group
+ Group table full.
+The hall must have a name
+Create PATH.DAT
+<3&0> Address............. %s

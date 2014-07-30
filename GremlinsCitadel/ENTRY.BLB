@@ -1,0 +1,3 @@
+Messages are formatted to each caller's screen width.  If you wish to defeat
+this formatting, start each line with a space.
+

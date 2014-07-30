@@ -1,0 +1,38 @@
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³                                                               ³
+     ³  CIT2DOOR.EXE                                  Version 1.2    ³
+     ³                                                               ³
+     ³  Program to convert Citadel's OUTPUT.APL to other formats     ³
+     ³  for programs designed to run under other BBS software        ³
+     ³  like QBBS and WWIVs.                                         ³
+     ³                                                               ³
+     ³  Provided with source code.                                   ³
+     ³                                                               ³
+     ³  Writed by Peter Torkelson, released into the public domain.  ³
+     ³  Updated by Richard Goldfinder to handle different EOLs.      ³
+     ³                                                               ³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     
+  Running the program is rather simple, you just tell it what sort of output 
+  file you want and where to get the OUTPUT.APL. The command line options 
+  are as follows:
+  
+  Usage: CIT2DOOR BBS_TYPE [OUTPUT.APL]
+  
+      BBS_TYPE   = QBBS to make a DORINFO1.DEF
+                   WWIV to make a CHAIN.TXT
+      OUTPUT.APL = Full path and filename of the OUTPUT.APL
+                   Defaultys to OUTPUT.APL in curent path
+  
+  Here is an example, this is for the program Global War, a Risk clone. One
+  of my favortes. :-)
+  
+     ÚÄ[ GWAR.BAT ]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³  @echo off                      ³
+     ³  cit2door WWIV                  ³
+     ³  e:                             ³
+     ³  cd \bgame\gwar                 ³
+     ³  war /W d:\cit\aplic\chain.txt  ³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ 

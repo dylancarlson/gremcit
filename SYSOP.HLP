@@ -1,0 +1,94 @@
+ 
+ HELP SYSOP. 
+ 
+ General.
+ Citadel allows someone at remote to have full power over Citadel.
+The following describes which sysop commands are available.
+
+ The "Sysop Special Fn:" menu can be accessed by remote by hitting ".S"
+it can also be accessed by hitting "F6" at console.
+                        
+ ".SA"  -- Abort
+
+ Aborts sysop functions.
+
+ ".SD" -- Date
+
+ Changes system date and time.
+
+ ".SG" -- Group special
+ Group special functions. The following are available.
+  
+ ".SGK" -- Group special: Kill group
+ Kill a group.
+
+ ".SGN" -- Group special: New group
+ Creates a new group.
+
+ ".SGR" -- Group special: Rename group
+ Renames a group.
+
+ ".SH" -- Hallway special
+ Hallway special functions. The following are available.
+
+ ".SHF" -- Hallway special: Force
+ Forces access to a hallway.
+
+ ".SHK" -- Hallway special: Kill
+ Kills current hallway, only if hall has no rooms.
+
+ ".SHL" -- Hallway special: List
+ Lists all hallways on system.
+
+ ".SHN" -- Hallway special: New
+ Creates a new hallway.
+
+ ".SHR" -- Hallway special: Rename
+ Renames a hallway.
+
+
+ ".SK"  -- Kill account.
+
+ Kills a userlog entry.
+
+ ".SM"  -- Mass delete.
+
+ Kills all messages from a user.  Deleted messages end up in
+Dump>
+
+ ".SO" -- Off hook.
+
+ Takes modem off hook. Works only in console mode.
+
+ ".SR" -- Reset file info.
+ 
+ Rarely used, clears unused entries from fileinfo.cit file in current
+directory room.
+
+ ".SS" -- Show user.
+ 
+  Displays a user's configuration.
+
+ ".SU" -- Userlog edit.
+
+ Changes a user's setup.
+
+ ".SX" -- Exit to Ms-dos.
+
+ This is the proper way of exiting Citadel.
+
+ ".S!" -- Shell escape
+
+ Allows person at console to drop into dos while Citadel is running.  Type
+'Exit' to return to Citadel. Only works in console mode.
+
+ ".S#" -- Read by message #
+
+ Displays message according to # if its viewable.
+
+
+ Related Topics
+
+ .h AIDE
+
+

@@ -1,0 +1,20 @@
+                               3cHELP CONFIG0
+ 
+                          3g--- Reconfiguring ---0
+ 
+ "3b.RC0"  -- Read Configuration
+ "3b.EC0"  -- Enter Configuration
+ 
+    These commands let you inspect and change your configuration.  Read Configuration lists your current configuration, while Enter Configuration lets you change screen width, number of nulls, upper/lowercase, tabs, helpful hints and whether you are listed in the userlog or not.
+ 
+                      3g--- Changing your Password ---0
+ 
+ "3b.EP0"  -- Enter Password
+ 
+    This command lets you enter new initials and password.  Each of these can be up to nineteen characters long and contain any printable characters.
+ 
+                          3g--- Related Topics ---0
+ 
+                                    3cSPECIAL0
+ 
+

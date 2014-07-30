@@ -1,0 +1,49 @@
+                               3cROOMSYS0
+ 
+                   General description of a room system
+   
+    A room system (bbs) is made up of some number of rooms. A room is simply a
+grouping of messages, files, and other objects with a related topic. The name
+of the room often relates to that topic.   
+  
+    So the basic unit in this system is a room. This is comparible with 'areas'
+in a lot of other BBS software, but rooms can have both messages AND files
+grouped in the same room. (this is commonly done so that the files in the area
+can be discussed, or so that files can be uploaded to complement the
+discussion in the room).
+ 
+    Almost all room systems start with a basic command set, and then extend it
+for features specific to that BBS software. So once you learn one room system,
+going to another is normaly quite easy. 
+ 
+    Your prompt will also be the name of the room, so you always know what
+room you are in.
+ 
+    Some room systems, including this one, rooms are grouped into larger units
+called halls. These are simply a group of rooms with related topics. 
+ 
+    It is also common for room systems to have a large number of rooms, 
+often over a hundred. (This is why grouping them by hall becomes important). 
+  
+    The commands in a room system are divided into two types, single key
+commands for all the basic functions, such as reading all the new messages the
+curent room, and muti-key commands (refered to as 'dot commands' beacuse they
+all start with a period) that allow access to advanced features of the system.
+ 
+    You can use a room system with out learning the 'dot commands', but they
+offer a lot of extra power, everything from searching the text of the messages
+in the curent room, to listing the members of a ZIP file.
+  
+  Suggested reading:
+  
+  3bROOMS0     Discusses getting around the rooms
+  3bHALLS0     Discusses getting around the halls, and what halls are, etc. 
+  3bDOTCMDS0   This topic explains how to access the extended command set.
+  3bMESSAGES0  Discusses reading and writing messages.
+  
+  
+                              3gRelated Topics0
+  
+                           3cROOMS  HALLS  MESSAGES0
+ 
+

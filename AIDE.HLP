@@ -1,0 +1,134 @@
+ 
+ HELP AIDE 
+ 
+ General.
+ The Citadel system contains a large collection of features, many of
+which are quite complex.  The following describes how aide commands act
+upon messages, rooms, groups, and hallways.  In addition a few miscellaneous
+commands are described.
+ 
+ Problem User Messages.
+ Messages from problem users are only visible to aides.  Such messages
+have the message "[problem user]" prominently in the header.  To make
+a problem user message viewable for everyone.  Type 'M' while the message
+is printing out.  The message will be printed again, and you will be
+asked to confirm your choice.  The message will then be seen non-aides
+as a normal message.  Aides will see the words "[viewable problem user]"
+in the header.  A message can be made unviewable by non aides by marking
+the message again.
+
+ Killing messages.
+ There are basically two ways for an aide to kill messages.
+ Type 'K' while the message is printing out, the message
+will be printed again, and you will be asked to confirm your choice.
+ You may also type 'P' to pause the message and while it's paused type
+'D'. The message will be printed again and choice will be confirmed.
+ Deleted messages are noted in the Aide room, so they can be
+retrieved if they need to be put back.
+ Problem user and moderated messages may be released for public viewing
+by marking them.
+ 
+ ".AI"  -- Aide Insert-Message.
+ 
+ This command inserts the most recently marked or deleted message in the
+current room.  The message is the same message as the old one.  Multiple
+copies of a message can be made anywhere.
+ 
+ Rooms.
+ Rooms can be created by any user (subject to sysop policy).  The sysop
+can optionally choose to restrict room creation only to Aides.
+ 
+ ".AE"  -- Aide Edit-Room
+ 
+ This command can modify the attributes of a room, the things that
+can be modified include:  (1) The name of the room, (2) The group that
+owns the room (if any), (3) Whether the room is permanent or not,
+(4) Whether the room is public or not, (5) Whether the room is read-only
+or download-only, (6) Whether the room is moderated and who
+the moderator is, and (7) Filename for room description (if room descriptions
+are enabled).  Additionally, when logged in at the console or when
+user has sysop priveledges, this command can create directory rooms and modify
+what drive and path they access.
+ 
+ ".AK"  -- Aide Kill-Room
+ 
+ This command will delete the current room.  After the command is done,
+you will be placed in the Lobby.
+ 
+ ".AD"  -- Aide Delete-Empty Rooms
+ 
+ This command deletes all rooms that have zero messages in them, and are
+not permanent.  This command works across all hallways and such, so it
+globally modifies the system.
+ 
+ Hallways.
+ Rooms are placed into sets called Hallways.  A room may appear in one
+or more hallways.  To get between hallways, a room must be made a window
+into a particular hallway.
+ 
+ ".AH"  -- Aide Hallway
+ 
+ This command will add or remove a room from the current hallway.
+ 
+ ".AW"  -- Aide Window
+ 
+ This room will make the current room a potential entry point into the
+current hallway.  For example:  The room Zoot> is in hallways "Fred" and "Jim".
+There is no window for Zoot> in either "Fred" or "Jim" so the < and > commands
+will not move between hallways.
+If an aide person uses the W command while in
+Zoot in hallway "Fred" the hallway "Fred" will be accessible from Zoot>.
+This means that a user in hallway "Jim" could goto Zoot>, and then use
+the < or > commands to get to Fred.
+ 
+ Groups.
+ Users can be placed in multiple groups.
+ 
+ ".AG"  -- Aide Group
+ 
+ This command will add or remove users from a group.
+ 
+ ".AL"  -- Aide List-Group
+ 
+ This command will list all of the groups.  If an optional group-name is
+appended to the end, it will list all users, rooms, and hallways in that
+group.
+ 
+ Files.
+ Directory rooms can contain files.  Three aide commands help maintain
+files in directory rooms.
+ 
+ ".AA"  -- Aide Attributes
+ 
+ Attributes will change the read-only and hidden attribute of a file.
+Hidden files are displayed in file-directories only for Aides. An
+asterisk '* is displayed to the left of either a hidden or a read-only
+file during verbose file-listing.
+ 
+ ".AS"  -- Set file-info
+ File comments can be changed or created with this command. 
+
+ ".AU"  -- Aide Unlink
+ 
+ Unlink deletes a file from the directory room.  No wildcards are allowed.
+ 
+ ".AR"  -- Aide Rename
+ 
+ Renames a file.  Once again, no wildcards.
+
+ Miscellaneous.
+
+ ".AC"  -- Aide Chat
+
+ Allows an Aide to page the sysop even if chat-mode is turned off.
+
+ The userlog command lists extended status information about each user.
+ 
+ Related Topics
+
+ .h DOWNLOAD
+ .h GROUP
+ .h HALLWAY
+ .h MESSAGE
+ .h ROOM
+

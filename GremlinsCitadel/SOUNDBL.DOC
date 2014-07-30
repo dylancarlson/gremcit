@@ -1,0 +1,33 @@
+GremCit/064 Soundblaster Extensions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+        Sound capabilities are enabled in Citadel by loading an External
+        Sound Driver (.ESD) driver. This is specified in the
+        HARDWARE.CIT file. To add the Soundblaster driver, include the
+        following line:
+
+                #SNDDRIVER SB
+
+        See the DRIVERS.DOC file included in the general Citadel
+        documentation for more information on using the HARDWARE.CIT
+        file.
+
+        In addition, Creative Lab's SBSIM driver must be loaded to use
+        the Soundblaster support provided through the SB.ESD driver.
+
+        As sound support is not integral to a BBS, there are no hooks in
+        Citadel specific to using the Soundblaster. The only support for
+        sound is through Citadel's script language. (Enough information
+        is given in this document to implement sound support in Citadel,
+        but if you want to know more about the script language, see
+        SCRIPT.DOC which is part of the main Citadel documentation.)
+
+        By linking script files to play certain sounds with system
+        events with the #EVENT keyword in EXTERNAL.CIT, you can have a
+        fair amount of control over sounds on console. The #EVENT
+        keyword tells Citadel to run an application every time a
+        specific system event occurs. (Enough information is given in
+        this document to implement sound support in Citadel, but if you
+        want to know more about the #EVENT keyword and EXTERNAL.CIT in
+        general, see EXTERNAL.DOC which is part of the main Citadel
+        documentation.)

@@ -1,0 +1,261 @@
+GremCit/064 Customization
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+------------------------------------------------------------------------
+NOTE:   This document might be too technical for some users. If you do
+        not understand what is being said, please do not attempt to
+        change things, unless you have a backup of everything. By
+        modifying the files described in this document in the wrong way,
+        you can easily make Citadel not run properly or not run at all.
+        If you have any questions, please ask before trying anything.
+------------------------------------------------------------------------
+
+        Citadel relies on the file CTDL.DAT for most of its strings, and
+        an external dictionary (usually ENG-AM.DAT) for the spell
+        checker. By modifying CTDL.DAT, you can give your board its own
+        special look. However, be warned that doing this once does not
+        mean that you have done it for good: future revisions of Citadel
+        will be looking for different information in the CTDL.DAT file.
+        While most of the strings we add will go after the existing
+        string, there is no guarantee that we will not change the order
+        of strings. We will not go out of our way to change the data,
+        but we also will not avoid doing it to further enhance Citadel's
+        memory usage.
+
+        What this means is that you might have to do some extra work
+        next time you update your Citadel software if you want to keep
+        your changes to CTDL.DAT changed. If you make more changes, you
+        will have more work to do when updating than if you do not make
+        as many changes.
+
+        If you add words to Citadel's spell checker by modifying
+        ENG-AM.TXT, please send us your new dictionary, so we can update
+        the distribution dictionary as well. There are 116,272 words in
+        the dictionary, which includes most of the common words in the
+        English language, but there might be some missing. We do not
+        have the time to add more words, so would appreciate any help we
+        can receive.
+
+
+THE CTDL.DAT FILE
+
+        Citadel loads various parts of CTDL.DAT into memory when it
+        needs to do certain tasks. For example, a section is loaded into
+        memory when your are in the sysop "Privileged Function" menu,
+        from either F6 or the .S command. When you abort out of this
+        menu, the memory is released for other use.
+
+        Keeping the strings in a separate file like this gives two
+        benefits: it lets users modify strings without needing source
+        code to the CTDL.EXE progam itself, and it saves memory by not
+        keeping more strings than are needed in memory at a time.
+
+        Citadel refers to different sections in the file by number, and
+        different sub-sections in a section by number. You must have all
+        sections Citadel expects: there is no error checking done when
+        loading data from CTDL.DAT, and a corrupted file or missing
+        sections will cause Citadel to crash.
+
+        For speedy lookup and loading, CTDL.DAT is a binary file. That
+        is, one that you cannot easily edit. A program in the
+        customization kit, CTDLDAT.EXE, reads in a text file (that is,
+        one that you can easily edit) and turns it into CTDL.DAT. This
+        is the program we use to create the CTDL.DAT that is distributed
+        with Citadel.
+
+
+        Using CTDLDAT.EXE
+
+                To run CTDLDAT.EXE, you must first have the text file
+                for it to read. By default, this file is called
+                CTDLDATA.DEF, but it can be named anything you desire,
+                by specifying the name on the CTDLDAT command line. That
+                is, to create CTDL.DAT from the CTDLDATA.DEF file, use
+                the following command:
+
+                        C:\CIT>ctdldat
+
+                If your data is kept in a different file, such as
+                MYCTDL.DAT, then just enter that name on the command
+                line, as follows:
+
+                        C:\CIT>ctdldat myctdl.dat
+
+                CTDLDAT will then read information out of MYCTDL.DEF,
+                not CTDLDATA.DEF.
+
+                As it runs, CTDLDAT will display a lot of status
+                messages, which can be ignored. Any line in the input
+                file that is not understood will simply be ignored by
+                CTDLDAT, and an error message will be displayed to the
+                screen. If you have any of these errors, fix them before
+                trying to run Citadel with the resulting CTDL.DAT file,
+                or it will probably crash.
+
+
+        The CTDLDATA.DEF file
+
+                The general format for the CTDLDATA.DEF file is as
+                follows:
+
+                        VERSION x
+
+                        ENTRY
+                                SUBENTRY TYPE
+                                        DATA
+                                ENDSUB
+                        ENDENT
+
+                Any number of SUBENTRY blocks can be in an ENTRY block,
+                and any number of ENTRY blocks can be in a file. But, of
+                course, Citadel expects a certain number of each.
+
+                The VERSION is a number used by Citadel to check that
+                you are using the correct version of CTDL.DAT. Citadel
+                version 064 expects this to be set to 101. That is, the
+                following line should be in CTDLDATA.DEF:
+
+                        VERSION 101
+
+                As explained earlier, Citadel refers to entries in
+                CTDL.DAT by number, and subentries within entries by
+                number. This number is the location of the entry block
+                in CTDLDATA.DEF. This means that the order of this file
+                is important, so do not re-order the contents.
+
+                Currently, the only SUBENTRY type supported is STRING,
+                which is a table of strings used by the program. In
+                future releases of Citadel, more subentry types might be
+                added as needed.
+
+                There are two valid DATA lines for STRING subentries:
+                STRING and STRFILE. STRING data lines are written to
+                CTDL.DAT string by string. STRFILE entries tell CTDLDAT
+                to read in a text file, and output each line of the file
+                as a separate string.
+
+
+        What Citadel expects
+
+                This is the order of entries and subentries that
+                Citadel/064 expects to find in CTDL.DAT, and thus should
+                be in CTDLDATA.DEF:
+
+                1.  The first entry is used when configuring, and has
+                    the following subentries:
+
+                    1.  CONFIG.CIT keywords.
+                    2.  Function key names, for the #DIALMACRO
+                        CONFIG.CIT keyword.
+                    3.  Trap types, for the #TRAP CONFIG.CIT keyword.
+                    4.  Default new-user keywords, for the #USER
+                        CONFIG.CIT keyword.
+                    5.  System setting keywords, for the #LOGIN
+                        CONFIG.CIT keyword.
+                    6.  Twit feature keywords, for the #TWIT_FEATURES
+                        CONFIG.CIT keyword.
+                    7.  Some messages used when configuring.
+                    8.  GRPDATA.CIT keywords.
+                    9.  EXTERNAL.CIT keywords.
+                    10. Event keywords, for the #EVENT EXTERNAL.CIT
+                        keyword.
+
+                2.  The second entry for general purpose messages, and
+                    has the following two subentries:
+
+                    1.  All general-purpose messages.
+                    2.  Messages for the F4 screen "doing" message.
+
+                3.  The third entry is used by the script language
+                    interpreter, and has the following subentries:
+
+                    1.  All script language keywords.
+                    2.  All internal script functions.
+                    3.  Status/error messages used when running scripts.
+
+                4.  The fourth entry is for time/date informations, and
+                    has the following subentries:
+
+                    1.  Short month names.
+                    2.  Long month names.
+                    3.  Short day names.
+                    4.  Long day names.
+                    5.  What to call AM and PM.
+
+------------------------------------------------------------------------
+NOTE:           The day names are not only used for output. They also
+                tell Citadel what the names days and months are when
+                reading configuration files, such as CRON.CIT. If you
+                change the third and fourth subentry of this entry, then
+                you will also have to change your configuration files to
+                reflect the different day names.
+------------------------------------------------------------------------
+
+                5.  This entry is loaded when networking, and has only
+                    one subentry:
+
+                    1.  Messages used when networking.
+
+                6.  This entry is loaded when entering the F6
+                    "Privileged Function" menu, and has only one
+                    subentry:
+
+                    1.  Messages used when in the sysop menu.
+
+                7.  This entry is defined for miscellaneous strings.
+                    Currently, there is only one:
+
+                    1.  The command line usage display.
+
+                8.  These are the menus used in the ^F6 console sysop
+                    interface. The menus are:
+
+                    1.  The main menu.
+                    2.  The hall menu.
+                    3.  The hall-room menu.
+                    4.  The room menu.
+                    5.  The user menu.
+                    6.  The group menu.
+                    7.  The help menu.
+
+                9.  This entry is used for default user stuff. It has
+                    only one subentry:
+
+                    1.  All the defult user keywords.
+
+                10. This entry is used when loading the CRON.CIT file
+                    (and, actually, in the .SCL (Sysop Cron List)
+                    command.) It has the following two subentries:
+
+                    1.  Cron types, for the #DO CRON.CIT keyword.
+                    2.  All of the CRON.CIT keywords.
+
+                11. This entry is used for loading NODES.CIT. It has
+                    only one subentry:
+
+                    1.  All of the NODES.CIT keywords.
+
+
+THE DICTIONARY FILE
+
+        As with CTDL.DAT, the dictionary file is a binary file, so
+        Citadel can search it quickly. Also like the CTDL.DAT file, a
+        program (MAKEDICT) is included in this customization kit to
+        create this file from a text file. Run this program from the
+        command line, like this:
+
+                C:\>makedict
+
+        MAKEDICT will then ask for an input file. The input file used to
+        create the distribution ENG-AM.DAT is included in this kit, and
+        is called ENG-AM.TXT. Just enter the name of this file when
+        asked, and MAKEDICT will read it and create ENG-AM.DAT from it.
+
+        The dictionary is much less rigid than the CTDL.DAT file. Thus,
+        the input file is much simpler than CTDLDATA.DEF. It is just an
+        alphabetically sorted list of words, one per line. To add words
+        to the dictionary, insert them in the ENG-AM.TXT file, then run
+        MAKEDICT, which will create ENG-AM.DAT which Citadel can use. Be
+        sure to make any entries in alphabetical order; Citadel assumes
+        alphabetical order so it can search quickly. Strange things may
+        happen if they are no so ordered.

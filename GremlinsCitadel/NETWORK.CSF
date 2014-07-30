@@ -1,0 +1,5 @@
+#FUNC _MAIN BOOL
+	#CALL PLAYSOUND 2 network.voc
+	#RET TRUE
+#ENDFUNC
+

@@ -1,0 +1,33 @@
+ Single-Key Commands:
+ 
+ C>hat
+ E>nter message
+ F>orward
+ G>oto
+ H>elp!
+ I>ntro
+ K>nown rooms
+ L>ogin
+ N>ew
+ O>ld
+ R>everse
+ T>erminate
+ X>clude Room
+ ?> -- this menu
+ +> -- next room
+ -> -- previous room
+ >> -- next hall
+ <> -- previous hall
+ 
+ Multi-Key Commands:
+ 
+ .E>nter
+ .G>oto
+ .H>elp
+ .K>nown
+ .L>ogin
+ .R>ead
+ .T>erminate
+
+ .H? for extended help
+

@@ -1,0 +1,41 @@
+ HELP
+
+ Commands work two ways:  single-key and multiple-key.  To enter a single-key
+command, simply press that key.  To enter multiple-key commands, press the '.'
+key, the key for that command, and any parameters.
+
+ Most single-key commands are default forms of multiple-key commands.  For
+example, typing G will goto the next room with new messages, while .GZOOT
+will go to the room ZOOT.  Typical commands commonly used include:
+
+ L -- Will login to the system.  This way you can keep track of new
+messages and private mail.
+
+ N -- Will read new messages in a room.
+
+ E -- Will let you enter a message.
+
+ G -- Will go to the next room with unread messages.
+
+ T -- Will log you off and hangup.
+
+ .EE -- Will let you enter a private message.
+
+ .ER -- Will let you create a new room.
+
+ .EC -- Will let you change your terminal configuration.
+
+ .TS -- Will log you off without hanging up, someone with you can
+login without having to call back.
+
+ To get a list of options for each command, you can
+use the following conventions:
+
+ .E? -- Lists options for the Enter command.
+ .H? -- Lists options for the Help command.
+ .K? -- Lists options for the Known command.
+ .R? -- Lists options for the Read command.
+ .T? -- Lists options for the Terminate command.
+
+ For more information, type .H? to get a list of additional help topics.
+

@@ -1,0 +1,112 @@
+Error opening roomreq.tmp
+ Fetching:
+ No access to %s room.
+ '%s' room not available to remote.%s
+ No %s room on system.
+ '%s' room not found for remote.%s
+ Sending %s files.
+ bad protocol
+ Receiving mail file.
+ Sending room request file.
+ Waiting for transfer.
+ Receiving %s files.
+No such node in userlog!
+NetCallout %s
+NetLogout %s (succeeded)
+Networked with "%s"
+  ----- %4d messages entered
+  ----- %4d messages read
+  ----- %4d messages expired
+  ----- %4d messages duplicate
+NetLogout %s (failed)
+ Incorporating:
+                 Room:  New: Expired: Duplicate:
+อออออออออออออออออออออออออออออออออออออออออออออออออ
+Error opening roomreq.out
+ No '%s' Net ID on remote%s
+ Net ID not found on other system.
+ No '%s' room on remote%s
+ Room not found on other system.
+ %20.20s   Room not found on local system.
+ No '%s' room local.%s
+Totals:           
+                (Rooms)(New)  (Exp)  (Dup)
+Incorporating MAIL:
+%d new %s, %d routed, %d rejected, and %d total.
+%s Netting with '%s'%s
+#NODE
+#ROOM
+Dialing (%s%s) ... 1 
+Dialing ... 
+timeout
+Dialing (%s%s) ... %ld 
+aborted
+NetDial (%s)
+success
+failure
+Pause For (%s)
+Repeat (%s) (%s) (%s)
+Wait for (%s)
+Send (%s)
+Wait for (%s)
+Invalid login verb/word (%s/%s)
+Logging in ... 
+failed
+Fetching for
+Incorporating from
+2Waiting for transfer.0
+2Sending/Receiving Files.0
+2Hang Up.0
+2Generating %s0
+Default
+Must have default nodes.cit entry!
+2Uncompressing %s0
+No nodes.cit entry for %s
+2Incorporating %s2 from %s.0
+4                           Room   New  Expired  Duplicate 0
+อออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+Totals:                     
+                           (Rooms)(New)  (Exp)  (Dup)
+ %d new %s, %d routed, %d rejected, and %d total.
+2Copying %s0
+Cannot open AIDEMSG.TMP!
+2Fetching %s2:0
+2%d %s2 fetched.0
+ %30.30s     (Skipped)
+4 Roomname                       #   Roomname                       #0
+3 new0
+2Copying mail file.0
+2Sending file69.%s.0
+2Compressing files.0
+2Could not create packet.0
+2Copying mail file back.0
+2Copying Packet %s.0
+ Hangup.
+ Uncompressing %s files.
+ Sending room request file.
+ Receiving room request file.
+#NETID
+Error opening netid.cit
+Error opening roomreq.in
+ Room %s created.
+ '%s' Room created.%s
+ Room %s not created.
+ '%s' Room not created.%s
+ No %s Net ID on system.
+ '%s' Net ID not found for remote.%s
+ No %s room on system.
+ Copying mail file.
+ Compressing %s files.
+ Sending mail and rooms.
+ Receiving mail and rooms.
+2Incorporating %s2 from %s.0
+Fetch
+nodename or alias
+Incorporate
+Room Request
+ Room '%s>' created.
+ Room '%s>' not created.
+ Net ID '%s' not found.
+ File '%s' received.
+ No access to room '%s>'.
+Build address

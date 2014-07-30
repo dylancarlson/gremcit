@@ -1,0 +1,56 @@
+ HELP ROOM
+
+ Rooms, in general.
+ Rooms are lists of messages, with a 20-character name.  A room may appear
+in one or more hallways.
+
+ Going-To Rooms.
+
+ G        -- To go to the next room with unread messages.
+ +        -- To go to the next room.
+ -        -- To go to the previous room.
+ .Groom   -- To go to a specific room.
+
+ "G" will go to the next room with unread messages.  "+" and "-" travel
+through each room in sequence.  To go to a specific room, use the .Groom
+command.  You can enter a partial roomname for this command.
+ Sometimes you won't be able to go to all of the rooms.  This may be because
+some are in another hallway, or some of them are group-only, or some of
+them may be hidden.  See about hidden and group-only rooms below.
+
+ Listing Rooms.
+
+ K        -- Known rooms.
+ .KN      -- Known Newrooms only.
+ .KW      -- Known Windows.
+ .KD      -- Known Directory rooms.
+ .KM      -- Known Mail rooms.
+ 
+ The Known command lists all of the rooms in the current hallway which you
+can access.  The Known Newrooms commands lists only those rooms with unread
+messages.  The Known Windows command lists only those rooms which exit
+to other hallways, which is useful if you must escape a hallway. Known
+directory rooms displays all directory rooms.  Known Mail rooms displays
+rooms which contain new private mail.
+
+ Creating Rooms.
+
+ .ER      -- Enter Room.
+ .ELR     -- Enter Limited-Access Room.
+
+ These two commands create rooms.  The Enter Room command creates a room that
+can possibly be accesses by anyone.  The Enter Limited-Access Room command
+may create a room that is limited to the members of a particular group.
+You may only create a group-only room for groups that you are a member of.
+ You may also create hidden rooms with either of these commands.  Hidden rooms
+will not be listed in your Known rooms list until you have visited.  Once
+you have visited them, they act just like regular rooms.  But you cannot
+do this until you have explicitly use the ".G" command to goto the room,
+entering its complete roomname.
+
+ Related Topics
+
+ .h GROUP
+ .h HALLWAY
+ .h MESSAGE
+

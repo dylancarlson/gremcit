@@ -1,0 +1,19 @@
+ .RA>ll
+ .RC>onfiguration
+ .RD>irectory
+ .RE>xclusive
+ .RF>orward
+ .RH>allways
+ .RI>nfo file
+ .RL>imited-Access
+ .RN>ew
+ .RO>ld
+ .RR>everse (Default)
+ .RS>tatus
+ .RT>extfile
+ .RU>serlog
+ .RV>erbose
+ .RW>C-Protocol
+ .RY>modem protocol
+ .R?> -- this list
+

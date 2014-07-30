@@ -1,0 +1,99 @@
+                                3cHELP SYSOP0
+ 
+                             3g--- General ---0
+ 
+    Citadel allows someone at remote to have full power over Citadel.  The following describes which sysop commands are available.
+ 
+                       3g--- File linked messages --0
+ 
+  3b.E*0   -- Enter Filelinked Public Message.
+  3b.M*E0  -- Enter Exclusive Filelinked Message.
+  3b.EL*M0 -- Enter Limited Access Filelinked Message.
+ 
+    The Sysop only can enter Filelinked messages. Either at console or remote.  You must specifly the entire DOS path including drive.  No wildcard file names are allowed.
+ 
+                       3g--- Sysop menu commands ---0
+ 
+    The sysop menu can be accessed by remote by hitting ".S", it can also be accessed by hitting "F6" at console.
+ 
+  "3bA0" -- Abort   Aborts sysop functions.
+  "3bD0" -- Date    Changes system date and time.
+  "3bE0" -- Enter/update EXTERNAL.CIT and GRPDATA.CIT files
+  "3bF0" -- Aide Function    Allows sysop access to aide functions.
+ 
+  "3bG0" -- Group special functions. The following are available.
+ 
+     "3bK0" -- Group special: Kill group
+     "3bN0" -- Group special: New group
+     "3bG0" -- Group special: Global group membership.
+     "3bU0" -- Group special: Global User group membership.
+     "3bR0" -- Group special: Rename group
+ 
+  "3bH0" -- Hallway special functions. The following are available.
+  
+     "3bF0" -- Hallway special: Force
+     "3bG0" -- Hallway special: Global hallway.
+     "3bK0" -- Hallway special: Kill
+     "3bL0" -- Hallway special: List
+     "3bN0" -- Hallway special: New
+     "3bR0" -- Hallway special: Rename
+ 
+  "3bK0"  -- Kill account.    Kills a userlog entry.
+  "3bM0"  -- Mass delete.     Kills all messages from a user.
+  "3bN0"  -- Newuser Verify   Scrolls through all the unverified users, and
+                           asks you if you want to verifiy them.  If you do
+                           not verify them, GremCit will offer to kill the
+                           account.
+  
+  "3bR0" -- Reset file info.    Clears unused entries from fileinfo.cit.
+  "3bS0" -- Show user.          Displays a user's configuration.
+  "3bU0" -- Userlog edit.       Changes a user's setup.
+  "3bV0" -- View help file.     Shows this text file.
+  "3bX0" -- Exit to Ms-dos.     This is the proper way of exiting Citadel.
+  "3bZ0" -- Zap empty rooms.    Deletes empty rooms.
+ 
+  "3b!0" -- Shell escape  Allows person at console to drop into dos while
+                       GremCit is running.  Type 'Exit' to return to Citadel.
+                       Only works in console mode.
+ 
+  "3@0" -- Super Shell Escape  Allows someone at console to drop into dos
+                             while GremCit is running. Type 'Exit' to return
+                             to GremCit.  Saves parts of GremCit to disk, and
+                             frees more memory for the shell. Only works in
+                             console mode.
+ 
+  "3b#0" -- Read by message #   Displays message according to # if it is
+                             viewable.
+ 
+  "3b*0" -- Unlink with wildcards. Allows the sysop to erase files and use
+                                full UNIX style wildcards.
+ 
+                           3g--- Console keys ---0
+ 
+    These keys work only on the local console.
+ 
+   3bAlt-P0               Toggle printer on/off.
+   3bAlt-T0               Toggle problem user bit of user logged in.
+   3bAlt-X0               Exit to DOS. Same as "X".
+   3bAlt-F60              Toggles current logged in user's Aide status.
+   3cShift-F60            Toggles currently logged in user's SysOp status.
+   3bAlt-B0               Turns the PsYcHo cHiCkEn eFfEcT on or off.
+   3bAlt-C0               Pulls a user into Chat mode like F8.
+   3bAlt-D0               Debug mode - shows all command processes
+   3bAlt-Z0               Hangs Up.  Sleeping Call again :-)
+   3ePgUp0                Add 5 min time to user on line
+   3ePgDn0                Subtract 5 min time from user on line
+   3eF10                  Dump Caller from system (hangs up)
+   3eF20                  ReInitialize modem
+   3eF30                  System Request - beeps you when system is free
+   3eF40                  Toggles 'Screen saver'
+   3eF50                  Toggles Modem/Console mode
+   3eF60                  Access Sysop menu
+   3eF70                  Toggles Sound (page noise)
+   3eF80                  Pulls caller into chat
+   3eF90                  Toggles Chat mode
+   3eF100                 Toggles double status line
+                         3g--- Related Topics ---0
+   
+                                   3cAIDE0
+ 

@@ -1,0 +1,135 @@
+                                2HELP AIDE0
+ 
+   The Citadel system contains a large collection of features, many of which are quite complex.  The following describes how aide commands act upon messages, rooms, groups, and hallways.  In addition a few miscellaneous commands are described.
+ 
+ 
+                            2--- Messages ---0
+ 
+ 3Marking:0
+     Messages can be marked by typing M while the message is printed out. The 
+     message will be printed again, and you will be asked to confirm your 
+     choice.
+ 
+ 3Problem users:0
+     Messages from problem users are only visible to aides.  Such messages 
+     have the message "[problem user]" prominently in the header. Aides will 
+     be prompted "Release? (Y/N)[N]:" after each Problem user message.  If a 
+     message is released, all users will be able to see it.  A released 
+     message will display "[viewable problem user]" in the header, and can be 
+     un-released by marking the message.
+ 
+ 3Moderation:0
+     Messages posted in moderated rooms will not be viewable to regular users 
+     until someone with Aide access releases them.  The message will display 
+     "[moderated]" in the header, and the aide will be prompted "Release 
+     (Y/N)[N]:" after the message header.  When a message is released, all 
+     users can see it. A released message can be un-released by marking it.
+ 
+ 3Networked messages:0
+     Messages received from the network can be manipulated as can any other 
+     message.  Any message posted in a networked room but any user with 
+     Network access will be sent over the network.  If a user without network 
+     status posts in a networked room, the message will be tagged and GremCit 
+     will pause and ask "Release? (Y/N)[Y]:".  If the message is released, it 
+     will be sent out on the network, if not it will only be visible on the 
+     local system.
+ 
+ 3Deleting:0
+     To kill messages, type "3k0" while the message is printing out, the 
+     message will be printed again, and you will be asked to confirm your 
+     choice. Deleted messages are noted in the Aide room, so they can be 
+     retrieved if they need to be put back.
+ 
+ "3.AI0"  -- Aide Insert-Message.
+     This command inserts the most recently marked or deleted message in the 
+     current room.  The message is the same message as the old one.  It has 
+     the name of the room it came from added to the header.
+ 
+ 
+                              2--- Rooms ---0
+ 
+     Rooms can be created by any user (subject to sysop policy).  The sysop 
+can optionally choose to restrict room creation only to Aides.
+ 
+ "3.AE0"  -- Aide Edit-Room
+     This command can modify the attributes of a room, the things that can be
+     modified include:  [Bracers indicate command used at the edit prompt]
+ 
+     (1)  The name of the room                             [3C0hange name]
+     (2)  The group that owns the room (if any)            [3G0roup only]
+     (3)  Whether the room is permanent or not             [3P0ermanent]
+     (4)  Whether the room is public or hidden             [3H0idden]
+     (5)  Whether the room is read-only or not             [3R0ead only]
+     (6)  Change room Info-line.                           [3I0nfo-line]
+     (7)  Whether the room is moderated.                   [3M0oderated]
+     (8)  Make changes permanent and exit.                 [3S0ave Changes]
+  
+    Use 3S0ave Changes, and answer yes to make the changes permanent.  If
+    you answer no to abort and leave with no changes made.
+ 
+ "3.AK0"  -- Aide Kill-Room
+    This command will delete the current room.  After the command is done,
+    you will be placed in the Lobby.
+ 
+ "3.AH0"  -- Aide Hallway
+    This command will add or remove a room from the current hallway.
+ 
+ "3.AW0"  -- Aide Window
+    This room will make the current room a potential entry point into the
+    current hallway.
+ 
+ 
+                              2--- Groups ---0
+ 
+    Users can be placed in multiple groups.
+ 
+  "3.AG0"  -- Aide Group
+    This command will add or remove users from a group.
+ 
+  "3.AL0"  -- Aide List-Group
+    This command will list all of the groups.  If an optional group-name is
+    appended to the end, it will list all users, rooms, and hallways in that
+    group.
+ 
+ 
+                              2--- Files ---0
+ 
+    Directory rooms can contain files.  Three aide commands help maintain
+    files in directory rooms.
+ 
+ "3.AA0"  -- Aide Attributes
+    Attributes will change the read-only and hidden attribute of a file.
+ 
+ "3.AU0"  -- Aide Unlink
+    Unlink deletes a file from the directory room.  No wildcards are allowed.
+ 
+ "3.AR0"  -- Aide Rename
+    Renames a file.  Once again, no wildcards.
+ 
+ "3.AM0"  -- Aide Move file
+    Moves a file from one room to any path.
+ 
+ "3.AF0"  -- Aide File set
+    Searches through a directory and finds all files that have no infofile
+    entry and prompts the aide to supply one.
+ 
+ "3.AS0"  -- Aide Set file info
+    Allows an aide to edit the infofile entry for a particular file.
+ 
+ 
+                           2-- Miscellaneous --0
+ 
+  "3.AC0"  -- Aide Chat
+    Rings the Chat beeps even if the SysOp has turned chat off.
+ 
+  "3.RU0" -- Read Userlog
+    Lists extended status information about each user, including Aide status,
+    Unlisted entry, Permanent entry, Sysop account, Network access, Problem
+    user, No Mail, and accounting balance (if accounting is enabled).
+ 
+ 
+                           2-- Related Topics --0
+ 
+                 3cDOWNLOAD  GROUPS  HALLS  MESSAGES  ROOMS0
+ 
+ 

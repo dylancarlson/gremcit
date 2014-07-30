@@ -1,0 +1,38 @@
+ HELP DOWNLOAD
+
+ (and files in general...)
+ Download functions are available in special rooms called directory rooms.
+Directory rooms have a "]" after the roomname, rather than the normal ">"
+character.  The following commands are used to list files, to download them,
+or to upload files:
+
+ .RD  -- Read Directory
+ .RVD -- Read Verbose Directory
+
+ The Read Directory commands list the available files in the current room.
+This commands waits for an optional filename (possibly wildcarded, per
+MS-DOS filename conventions) and will restrict its output to those
+files selected.  The default is to list all of the files.
+ The Verbose option gives an extended listing with date, filesize in bytes and
+download time.
+
+ .RT  -- Read Textfile
+ .RW  -- Read WC-Protocol
+
+ These commands download files.  Read Textfile will request a filename,
+file will be printed (as is) to you.  Read WC-Protocol will download a file
+using XMODEM protocol.
+
+ .ET  -- Enter Textfile
+ .EW  -- Enter WC-Protocol
+
+ These commands are the inverse of the above two download commands.  They
+actually create files on the local system.  After supplying the filename, you 
+will be asked to supply a brief comment describing the file.  You have about 
+60 characters.
+ (Note:  You terminate a file in Enter Textfile with control-Z).
+
+ Related Topics
+
+ .h ROOM
+

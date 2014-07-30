@@ -1,0 +1,27 @@
+                                   2HELP0
+ 
+ Commands work two ways:
+ 
+   Single-key - To enter a single-key command, simply press that key.
+ 
+   Multiple-key commands, press the "." key, the key for that command, and any
+parameters.  Most single-key commands are default forms of multiple-key
+commands. Typical commands commonly used include:
+ 
+ "3L0"   -- Will 3login0 to the system.
+ "3N0"   -- Will 3read new0 messages in a room.
+ "3E0"   -- Will let you 3enter0 a message.
+ "3G0"   -- Will 3go to the next room0 with unread messages.
+ "3T0"   -- Will 3log you off0 and hangup.
+ "3.EE0" -- Will let you enter 3e-mail0.
+ "3.ER0" -- Will let you 3create a new room0.
+ "3.EC0" -- Will let you change your terminal 3configuration0.
+ 
+ To get list of options for each command, use the following conventions:
+ 
+ "3.E?0" -- Lists options for the 3Enter0 command.
+ "3.H?0" -- Lists options for the 3Help0 command.
+ "3.K?0" -- Lists options for the 3Known0 command.
+ "3.R?0" -- Lists options for the 3Read0 command.
+ 
+

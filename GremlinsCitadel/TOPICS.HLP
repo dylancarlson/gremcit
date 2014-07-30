@@ -1,0 +1,29 @@
+                               3cHELP OPTIONS0
+  Ga ACCOUNT  Ac --- Ga List of Time groups and Accounting information          0
+  Ha ANSI     Ac --- Ha Explains the use of the ANSI terminal support.          0
+  Ga COLORS   Ac --- Ga Displays all color attributes.                          0
+  Ha CONFIG   Ac --- Ha Explains all the configuration commands and options.    0
+  Ga DOORS    Ac --- Ga Tells you how to use the "Door" Command.                0
+  Ha DOTCMDS  Ac --- Ha Tells you how to use extended commands                  0
+  Ga ENTER    Ac --- Ga Lists options for the ENTER command.                    0
+  Ha FILES    Ac --- Ha Explains the transferring of files.                     0
+  Ga GROUPS   Ac --- Ga Explains the use of groups.                             0
+  Ha HALLS    Ac --- Ha Explains moving around in halls.                        0
+  Ga HELP     Ac --- Ga Help on the help system.                                0
+  Ha INTRO    Ac --- Ha Introduction to this GremCit.                           0
+  Ga KNOWN    Ac --- Ga Lists options for the KNOWN command.                    0
+  Ha MEMBERS  Ac --- Ha List of ROOM ACCESS groups and the access requirments.  0
+  Ga MESSAGES Ac --- Ga Lists all message entry commands.                       0
+  Ha NETWORK  Ac --- Ha Explains how to use the GremCit network.                0
+  Ga POLICY   Ac --- Ga Gives the Rules for this system. 1bREQUIRED READING!!     0 
+  Ha PROMPT   Ac --- Ha How room prompts work.                                  0 
+  Ga RAPE     Ac --- Ga Know which users are legal.                             0
+  Ha READ     Ac --- Ha Lists options for the READ command.                     0
+  Ga ROOMS    Ac --- Ga Explains moving around in and creating rooms.           0
+  Ha ROOMSYS  Ac --- Ha Explains the basic operation of Citadel's room system.  0
+  Ga SPECIAL  Ac --- Ga Explains anything that didn't go anywhere else.         0
+  Ha SURNAMES Ac --- Ha Explains the use of Titles and Surnames.                0
+  Ga TIME     Ac --- Ga How time/date stamps work.                              0 
+  Ha TOILET   Ac --- Ha Help on using zero gravity toilet.                      0
+ 
+

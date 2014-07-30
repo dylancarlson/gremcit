@@ -1,0 +1,26 @@
+ You will now be asked for a title and surname, your real name, phone
+number, and address. Then you will be able to leave a message to the
+sysop.
+ 
+ Titles and surnames are appended to your nym.  It looks like this:
+ 
+ [I'm A]    User   [that's new]
+ (Title)    (Nym)  (Surname)
+ 
+ Your real name, phone number, and address cannot be seen by other uers
+on this BBS; only the sysop has access to this information.
+ 
+ However, your real name is saved with networked messages. While this is
+never displayed on this BBS or others on the Citadel network, other
+sysops can find the name by looking at the message base with a file
+editor. It also may be visible to users of other networks which are
+linked to the Citadel network.
+ 
+ In your message to sysop, please include the following information,
+which helps us give you more access to the system:
+ 
+ 1) The best times to call
+ 
+ 2) Your age
+ 
+ 3) Any other BBSes you call or are a sysop of

@@ -1,0 +1,23 @@
+ HELP GROUP
+
+ Groups are sets of users.  Messages, Rooms, and Hallways can be limited
+to a selected group, and users may belong to more than one group.  The
+commands to create rooms and messages which are limited to a group are as
+follows:
+
+ .ELM  -- To create a group-only message.
+ .ELR  -- To create a group-only room.
+
+ .RLU  -- To display group members.
+
+ After both of these, you will be prompted for a group name.  You can
+limit a message or room to any group which you are a member of.  To
+find out which groups you belong to, use the Read Configuration command
+noted elsewhere.
+
+ Related Topics
+
+ .h MESSAGE
+ .h ROOM
+ .h SPECIAL
+

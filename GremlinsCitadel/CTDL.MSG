@@ -1,0 +1,1400 @@
+Building hall file (%d)
+Error allocating logTab
+Error allocating msgTab
+Config Complete.
+Fatal error in configuration. Aborting.
+ %s not found.
+ It will be initialized.
+Cannot create %s file!
+log
+day
+0Building %s0 table
+%lu calls.
+%d valid log entries.
+ F1 þ Shutdown 
+Cannot find %s!
+%s - Warning: Unknown %s %s
+group
+ANY
+%s - Warning: Invalid %s hour %d
+ special
+ Unknown %s keyword: %s
+ F2 þ Startup  
+ F3 þ Request 
+ F4 þ Status   
+ F4 þ Terminal 
+ F5  þ Modem   
+ F5  þ Console 
+ F6 þ Sysop Fn 
+Network with "%s"
+ F7 þ Bells-Cht
+ F7 þ Bells-Off
+ F8 þ ChatMode
+ F9 þ Chat-On  
+ F9 þ Chat-Off 
+ F10 þ Help    
+%30.30sณ%sณ%sณ%sณ%sณ%c%c%c%c%c%c%cณ%sณ%sณ%sณ%s
+Verify spelling
+Sysop Menu
+ 3Possible misspellings and corrections:0
+ No unknown words found.
+(No suggestions)
+ 3Possible misspellings:0
+The word "%s" is not known. Correct the word
+ '?' for menu, 'H' for help.
+Add word to personal dictionary
+3Possible correct spellings0 : 
+<3E0> %s editor options%s
+%s%s - EOF detected!
+ (verbose continue, spell checker)
+%s editor options
+<3V0> 3V0erbose continue......... %s
+<3P0> S3p0ell checker mode....... %s
+<3-0> Remove word from dictionary
+<3+0> Add word to dictionary
+<3L0>ist dictionary
+Spell checker mode: 
+%s%s - write fail!
+%s (%d) Warning: Unknown variable %s
+could not load messages
+Save
+Room table full.
+Room name:
+getLog
+putLog
+getRoom
+%s>'s directory (%s) not found.
+Room group:
+Description:
+group
+Hidden room:
+Shared:
+room
+ %d of %d rooms in use
+Writing %s table
+hall
+room position
+temp log
+Cannot open %s
+Cannot delete %s
+Cannot rename %s
+resizing halls
+temp hall
+Cannot read %s!
+putRoom
+Auto Ansi test . . .
+temp hall2
+ Ansi Detected . . .
+ Ansi NOT Detected . . .
+Wait 5 seconds, or hit (space), (ESC), (A)nsi, or (S)top . . .
+Cannot allocate space for tables
+done
+resizing groups
+temp group
+Normal
+Blinking
+Inverted
+temp log2
+Boldface
+Underline
+Not logged in
+resizing rooms
+%s too long; must be fewer than %d characters
+The room must have a name
+log#%d
+A "%s" room already exists.
+name for new room
+Description for new room
+Make room public
+Make room shared (networked)
+Room "%s%c" created by %s
+New Pointer edit menu.
+Room No: %d
+Null
+Reserved_2
+Root
+Maintenance
+Clearing %s entry %d
+room
+Lobby
+Mail
+Aide
+Dump
+Copying log entry %d
+converting %s
+temp room
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+converting %s (%d)
+บ%s %s %s %s %sบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+temp log3
+a
+the
+an
+temp log4
+Cannot allocate screen
+ Scrollback Buffer ณ , , PgUp, PgDn, Home, End, Esc ณ %d line%s back%s
+[Date correction made]
+temp log5
+Special time is now beginning, you have no time limit.
+Special time is over. You have %ld %s left today.
+ Only %ld %s left today!
+recreating %s
+Cannot write roompos.dat
+temp roompos
+Your transfer took %ld %s. You have been %s %ld %s.
+minute
+minutes
+temp hall2
+charged
+credited
+  -- Room has no application.
+temp message
+Copying Message #%lu
+  -- Cannot find application directory.
+Hall change to: %s
+Must resize %s
+ No such hall: "%s".
+Room change to: %s
+ No such room: "%s".
+Bad value %d "%s"
+ AP: No room "%s"!
+Swapping, please wait.
+[User: %s]
+Use the EXIT command to return to %s
+Carrier-Detect (%u)
+Carrier-Loss
+Connect
+Connect 1200
+Connect 2400
+Connect 9600
+No Carrier
+Error
+No Dialtone
+Busy
+No Answer
+Connect 12000
+Connect 14400
+Connect 19200
+Connect 38400
+Connect 57600
+Connect 4800
+Connect 7200
+Connect 16800
+Chat Off
+Chat On
+Shutdown Citadel, Errorlevel %s
+Cannot network with a user logged in.
+%s - not enough memory
+(No Job)
+<3S0> Set all pointers.
+<3N0> Set all pointers to New.
+<3O0> Set all pointers to Old.
+<3R0> Set pointer for a room.
+<3D0> Display all pointers.
+<3B0> Back to previous menu.
+%s online, #%lu to %lu
+2Pointer edit cmd:0
+Set pointer for particular room
+New pointer for "
+ '?' for menu.
+Display all pointers.
+Shell: "%s"
+Local Net 6.9 Incorporation
+To Incorporate Use .S6 menu.
+Local Net 6.9 Fetching
+ No nodes.cit entry for "%s"
+Fetching For "%s"
+To Fetch Use .S6 menu.
+Run script: "%s"
+ Unknown event type %d
+not enough memory for %s
+Download 
+  -- Must log in to download.
+  -- Room is upload-only.
+  -- Not a directory room.
+Upload 
+  -- Must log in to upload.
+  -- Room is download-only.
+Chat
+Chat request
+Enter 
+  -- Must log in to enter.
+  -- Room is read-only.
+  -- Only %d %s per room.
+Border Line
+  -- You cannot enter borders.
+Configuration
+Door
+ ? for list of doors
+Exclusive %s
+  -- You cannot enter exclusive %s.
+Hallway
+Limited-access
+File-linked 
+  -- You cannot enter file-linked %s.
+Group-only 
+Old 
+Password
+  -- Must be logged in.
+Room
+  -- Must log in to create new rooms.
+  -- You cannot create rooms here.
+Textfile
+WC-protocol upload
+Application
+  -- Must be logged in.
+Exclude Room
+Name
+Color and case changes only.
+Surname / Title
+  -- Users cannot enter title and surname.
+  -- Your title and surname have been locked.
+title
+surname
+No log entry entry for "%s"
+ Cannot Exclude %s>
+Exclude room from G)oto loop
+ Room now excluded from G)oto loop.
+ Room now in G)oto loop.
+Goto 
+Bypass to 
+room to goto
+Help 
+Intro to %s
+Known 
+Application 
+Anonymous 
+Permanent 
+Directory 
+Hallways
+Group-only 
+Local 
+New 
+Old 
+Exclusive-%s 
+Shared 
+Room Info
+Rooms
+Verbose 
+This hall only 
+Window 
+  -- System in floor mode, no effect.
+Excluded 
+Number of %s
+Terminate 
+Log Extension file for user: %s
+Quit-also
+Stay
+Current %s exclusions:
+Read 
+  -- Must log in to read.
+All 
+{avail}
+From %s #
+By date 
+Header Scan 
+Keyword Search 
+By user 
+Configuration
+Directory
+Info file
+Limited-access
+Forward 
+Group-only 
+New 
+No %s excluded
+Public 
+Reverse 
+Status
+Textfile
+Userlog
+WC-protocol download
+Archive file 
+  -- Not in Anon rooms.
+Xpert %s
+Off
+On
+Auto Verbose %s
+Next Room: 
+Previous Room: 
+Next Hall: 
+Previous Hall: 
+Aide special fn:
+Attributes
+Edit room
+File set
+Group membership
+Hallway changes
+ Must be a Sysop!
+Insert %s
+Kill room
+List group
+Move file
+Name %s
+Queue fn: 
+Auto Mark/Kill/Censor
+Clear
+Insert
+Kill
+List
+Move
+Room Mark
+Sort
+Cannot Jump Back
+Unknown log extension: %s
+   [3%s has been excluded0]
+Author
+Node
+Region
+Text
+Menu
+%s exclusion
+Already excluded
+Authors
+Nodes
+Regions
+Edit %s options
+Add
+Remove
+exclusion string to add
+exclusion string to remove
+String not excluded
+Back to previous menu
+  -- Your %s privileges have been removed
+upload
+download
+file name
+Journalling %s:
+ (Succeeded)
+ (Failed)
+ (In process)
+msgFile rev: 3
+All %s are New
+All %s are Old
+Set all pointers
+%s number
+Kill "%s>"
+Cannot kill %s room
+Cannot kill %s>, %s>, %s), or %s>
+Room "%s>" killed by %s
+%s number to copy
+%s not viewable.
+Move room
+Room moved to just after %s.
+Rooms for %s group.
+ 3Rooms with unread %s along %s:0
+ 3You have exclusive %s in:0
+ 3No unseen %s in:0
+ 3Excluded rooms:0
+ 3Rooms exiting to other halls:0
+ 3) => hidden room0
+ 3} => bio room0
+ 3: => group-only room0
+ 3] => directory room0
+Hallway %s
+, owned by group %s
+Windowed in Halls:
+%4lu total,
+%4lu %s, %4lu new
+, (Mail)
+Run application: %s
+End application: %s
+2Entry cmd:0 
+Continue
+Delete %s buffer
+Are you sure
+Location
+You are in the room "%s" contained in the hall "%s".
+Find & Replace text
+Print formatted
+Replace text
+... 2 * 1WARNING!!!2 * 0 Empty %s not saved!
+Word count
+Subject / Signature
+subject
+signature
+Address
+destinaton user
+node
+region
+File Input
+File not found
+Name Change
+name
+ From 
+ To %s03
+ Forwarded to %s03
+MAXLOGTAB = %d
+    Subject: 4%s0
+You have up to %d characters.
+Enter %s (end with empty line).
+ Buffer overflow.
+Replace
+text
+ Text not found.
+replacement text
+ %d lines, %d words, %d characters
+%s cannot be used with queued downloads
+File "%s" already in queue.
+File %s: %ld byte%s, %s
+Cannot switch to directory.
+File name
+Size
+Download Time
+Totals
+  -- No files in queue
+Failed to allocate FILEDIR
+                %d File%s        %ld bytes free
+ %s uploaded by %s
+ %s uploaded by %s%s Comments: %s
+destination filename
+File %s renamed to file %s in %s] by %s
+Read-only
+Hidden
+Attributes of file %s changed in %s] by %s
+File size: %ld byte%s
+File Size: %d block%s, %ld byte%s
+Transfer Time: %s
+ 3Filename     Date      Size    D/L Time0
+Text download of file %s in room %s]
+Text upload of file %s in room %s]
+File %s unlinked in %s] by %s
+Ready for file transfer
+WC download of file %s in room %s]
+WC upload of file %s in room %s]
+<3D0>ownload, <3H0>angup after download or <3A0>bort: 
+Hangup after
+Sysop full-path %s download of file %s
+%s download of file %s in room %s]
+H to Hang up or any other key to abort countdown.
+Not a batch protocol
+Free disk space: %ld bytes
+%s upload of file %s in room %s]
+ 3.%c?0> -- this list
+date for listing
+ Command line: %s
+<3S0> Confirm 3S0ave............. %s
+ Reading group %s only.
+Access forced to hallway %s
+%s By %s, in hall %s%s
+hallway name
+Exclude room "%s>" from hall "%s"
+Room %s> excluded from hall %s by %s
+ Excluded %s>%s
+Add room "%s>" to hall "%s"
+Room %s> added to hall %s by %s
+ Added    %s>%s
+Hall still has rooms. Kill anyway
+Hallway %s deleted
+Hall table full.
+Hall %s made invisible from room %s> by %s
+Hall %s made visible from room %s> by %s
+Unwindow room "%s>" from hall "%s"
+Hall %s made invisible from room %s> by %s
+Window room "%s>" to hall "%s"
+Hall %s made visible from room %s> by %s
+Move hall
+This hallway cannot be moved.
+Hall moved to just after %s.
+ No helpfile "%s"
+ No menu "%s"
+o not d
+Hung up, these were inits;pw: %s;%s
+The time is now: %s
+%ld new %s0 on the system.
+ * System Available *
+             %s
+             Compiled on %s at %s
+ 3It is:0 %s%s
+ 3Up for:0 %s%s
+ 3Online:0 %s%s
+local cit-86 message fetching
+local cit-86 message incorporation
+Send to %s, %s (%s)
+Invalid alias for #ADDRESS keyword
+Too few arguments for #ADDRESS keyword
+Hidden
+ %-30.30s       ณ %-30.30s
+, 3Logged in:0 %s
+One moment please...
+Yes
+No
+%s0 in OLD buffer. .EO to use it.
+ 3Logged in:0 %s
+File moved to this room:
+Move file "%s" to room "%s"
+Enter %s2 in room file was moved to
+Save text file to disk
+[Unlogged User]
+Resume interrupted %s2 from previous call
+ The ETC.DAT file was not found, probably due to the computer crashing
+or another copy of Citadel being run in a multitasking environment.
+If you're sure that you aren't running another copy of Citadel, rerun it
+with the -C switch on the Citadel command line to reconfigure.
+Valid options are 3V0erbose, 3R0egular, or 3T0erse.
+ 3Current words in personal dictionary:0
+Don't have group access.
+Jump to %s room and %s hallway
+ Now in dial out mode. Alt-Q to quit,
+ Pg-Up/Pg-Dn for baud rate change,
+ Alt-E/Alt-S for shell/supershell,
+ Alt-P for duplex toggle,
+ Alt-H to hang up.
+Enter the reason you wish to chat. Please be concise.
+%s Login of trapped user: %s%s
+XMS Used:
+EMS Used:
+Virt Used:
+On
+Off
+Verbose mode
+Regular mode
+Terse mode
+Automatic mode
+, %d aide%s, %d sysop%s, %d problem user%s, and %d permanent user%s
+ poopuser: %s (%ld)
+ Using external %s driver: %s
+Rename file
+Set file info
+Unlink file
+View Help Text File
+Window into hallway
+Insert message to old buffer
+name (SINGLE)
+name (PLURAL)
+ Message nyms not enabled!
+what to do to %s2
+Login 
+ Already logged in!
+your initials
+password
+Console Login
+Login %s
+NetLogin %s
+%s base destroyed since last call!
+All %s pointers reset.
+ <3J0>ump <3N0>ext <3P0>ause <3S0>top
+0Welcome back
+0Welcome
+You were just here.
+You last called on: %s
+You are caller %s
+%d %s made
+person has
+people have
+%ld %s and left
+call
+calls
+%s new %s since you were last here.
+You have %ld %s left today.
+You have unlimited %s.
+Cannot allocate temp logbuf
+forwarding name
+Exclusive %s now not forwarded
+ No "%s" known.
+Exclusive %s now forwarded to %s
+video
+Exclusive %s now forwarded to %s @ %s
+who
+serial
+keyboard
+sound
+your new initials
+your new password
+Poor password
+Password changed
+user
+Your default hallway is locked.
+hallway
+No default hallway.
+ No such hall, or not accessible from here.
+Default hallway now: %s
+2Pick %s exclusion option:0
+2Pick option to edit:0
+Is this OK
+2Change:0
+Ansi Mode %s
+Ansi Color %s
+IBM graphics chars %s
+Censored %s %%s
+Verbose continue %s
+Screen width
+Pause on full screen
+lines per screen
+Pause on full screen off
+Uppercase only %s
+Linefeeds %s
+Tabs %s
+Borders and Ads %s
+Nulls
+number of nulls
+Nulls off
+Auto Verbose %s
+Twirly Cursor %s
+Time/date stamp
+Verbose Time/date stamp
+Prompt format
+Signature
+  -- Your signature has been locked!
+your signature
+Net prefix
+Pause after %s %%s
+Clear screen before %s %%s
+Minibin Login Stats %s
+Helpful Hints %s
+List in userlog %s
+Last Old on New %s
+Room descriptions %s
+Hall descriptions %s
+Room info-lines %s
+Auto-next hall %s
+Save changes
+Abort
+Abort changes
+Default Hallway
+Forwarding Address
+Default Protocol
+2Protocol:0
+Attributes
+%s (%u) : _fcalloc() Error
+Cannot write %s
+Cannot unlink %s
+Reading block
+Maximum errors exceeded
+Timeout during STX
+Timeout during SOH
+Bad STX
+Bad SOH
+Timeout during blocknum
+Timeout during ~blocknum
+Blocknum mis-match
+Duplicate record
+Unexpected blocknum
+Unexpected ~blocknum
+Timeout data recv
+Timeout crc hibyte
+Timeout crc lobyte
+Timeout checksum
+Unexpected crc
+Unexpected checksum
+Awaiting startup NAK/'C'
+No startup 'C'
+No startup NAK/'C'
+Transmitting block
+Timeout after block
+CAN after block
+Non-ACK after block
+Timeout during EOT
+CAN during EOT
+Non-ACK during EOT
+%-32s (Sector #%d) (Error #%d)
+File transfer %s.
+complete
+cancelled
+Error allocating msgTab (%ld)
+Error allocating free chunck
+Error allocating roomTab (%d)
+XMS->heap error
+EMS->heap error
+Virt->heap error
+bad msgTab request! slot: %lu msg: %lu
+bad roomTab request! room: %u
+lost %sTab chunk!
+No %sTab!
+auxmem corruption
+Heap->XMS error
+Heap->EMS error #%d
+Heap->Virtual error
+Half
+Full
+ Duplex.
+Quit.
+Hangup.
+ 3You are on:0 %s, %s, %s (%s.%s)
+ 3Running:0    %s%s%s%s (%s)
+ 3Userlog stats:0
+ %d log entries, %d active, %s calls
+ 3Room stats:0
+ %d rooms, %d active
+ %d public, %d hidden, %d BIO, %d networked, %d directory, %d moderated, %d group-only, and %d anonymous
+ 3Hall stats:0
+ %d halls, %d active
+, %d group-only, %d allowing room creation
+ 3%s stats:0
+ %s online, #%lu to %lu
+ %lu missing
+ %lu public, %lu exclusive, %lu networked, %lu Local-only, %lu moderated, %lu censored, %lu mass e-mail,%s
+and%s
+%lu group-only
+, %lu copied, and %lu problem user
+ %luK %s space, %ld %s slots
+, %s base is %d%% full
+ %s bytes average %s length
+ %d entered, %d read%s
+ by last caller
+ 3System stats / debugging:0
+ DOS version %d.%02d
+ %uK system memory,
+ %s bytes free far heap memory
+ heapblock %p is %-5ld bytes long and is %s
+in use
+free
+ Heap is empty.
+ Heap is corrupted.
+ %s characters transmitted, %s characters received
+ Connect Rate %ld, Port Rate %ld
+ Port Rate %ld
+{avail}
+Welcome to %s, %s, %s
+%s%s%s%s (%s)
+Extended memory initialization failed!
+EMS memory initialization failed!
+Unknown command line switch "%s".
+ Border lines not enabled!
+2Border %d:0
+Empty!
+border line to change
+border line
+Security violation, your account is being held for sysop's review
+ H for Help
+ ? for Menu
+ L to Login
+2Border %d:0 
+2Enter choice, ? for menu, or <CR> to continue:0
+ 3No such bulletin!0
+Cannot kill %s: or %s: hallways, nose head!
+Unknown required keyword: %s
+could not load command line option menu
+ No words in personal dictionary.
+word to add to personal dictionary
+ Word already in dictionary.
+word to remove from personal dictionary
+ Word not in dictionary.
+correct spelling
+msg
+room
+:Timeout or full]
+ Ringing sysop.
+f6disabled
+disabled
+system password
+Exit to MS-DOS
+Build address
+Security violation on dirctory %s by %s%s User unverified.
+Fatal System Crash: %s
+Citadel Terminated
+Cannot allocate space for file buffer
+Cannot allocate file buffer for %s
+%s file missing! (%d)
+ Timeout... 
+(Node) 
+Aide 
+Sysop 
+Moderator 
+Dungeoned 
+Netuser 
+Unlisted 
+Permanent
+Exclusive %s forwarded to 
+Width %d3,0 
+uppercase-only3,0 
+%s Tags
+2Pick %s tag option:0
+Current %s tags:
+No %s tags defined
+user to tag
+tag for user
+user to remove tags from
+User not tagged
+Personal Information
+Real Name
+Phone Number
+your phone number [(xxx)xxx-xxxx]
+Address Line 1
+Address Line 2
+Address Line 3
+Terminal Options
+<3L0>ist
+<3A0>dd
+<3R0>emove
+<3B0>ack to previous menu
+<3A0> 3A0nsi Mode......... %-3.3s%s<3C0> Ansi 3C0olor........ %-3.3s
+<3I0> 3I0BM graphics chrs. %-3.3s%s<3W0> Screen 3W0idth...... %-3d
+<3U0> 3U0ppercase-only.... %-3.3s%s<3F0> Line3f0eeds......... %-3.3s
+<3T0> 3T0abs.............. %-3.3s%s<3N0> 3N0ulls............. %-3.3s
+<3L0> 3L0ines per Screen.. %s
+Screen Pause Off
+<3R0> Att3r0ibutes........ 0Normal0, 1Blinking0, 2Inverted0, 3Boldface0, 4Underline0
+<3R0> 3R0eal name......... %s0
+<3P0> 3P0hone number...... %s0
+<310> Address Line 310.... %s0
+<320> Address Line 320.... %s0
+<330> Address Line 330.... %s0
+<3A0> 3A0uthor-based exclusions
+<3N0> 3N0ode-based exclusions
+<3T0> 3T0ext-based exclusions
+<3R0> 3R0egion-based exclusions
+<3O0> N3o0tify on exclusion.... %s
+<3M0> 3M0essage author tags
+Notify on exclusion %s
+<3R0> 3R0oom descriptions. %-3.3s
+<3+0> Room info-lines... %-3.3s
+<3W0> T3w0irly cursor..... %-3.3s
+<3U0> List in 3U0serlog... %-3.3s
+<3O0> Last 3O0ld on New... %-3.3s
+<3M0> 3M0inibin Stats..... %-3.3s
+<3@0> Pause after msg... %-3.3s
+<3C0> CLS before msg.... %-3.3s
+<3I0> T3i0tles/surnames... %-3.3s
+<3*0> View Censored msg. %-3.3s
+<3=0> See Borders/Ads... %-3.3s
+<3$0> Net prefix........ %s0
+<3D0> 3D0efault Hall...... %s
+<3P0> Default 3P0rotocol.. %s
+<3>0> Prompt format..... %s
+<3#0> Time/date stamp... %s0
+    Verbose   "....... %s0
+<3_0> Signature......... %s0
+<3F0> Forwarding To.....
+<3T0> Terminal Settings%s
+ (ANSI, Width, Lines per screen, etc...)
+<360> Personal Information%s
+ (Name, Phone, Address)
+<370> %s Options%s
+ (Exclusions and Tags)
+<3Z0> Pointer edit menu%s
+ (Message pointers, by room)
+<3S0> to save, <3A0> to abort
+D%sisplay titles/surnames
+D%sisplay subjects
+D%sisplay signatures
+User:
+Access:
+4Groups:0
+Options:
+4Enabled:0
+None3.0
+4Disabled:0
+4Default Hallway:0
+4Default Protocol:0 %s
+4Net Prefix:0 %s0
+4Prompt format:0 %s
+4Time/date stamp:0 %s0
+4Verbose   "    :0 %s0
+4Signature:0 %s0
+Terminal:
+Ansi Mode %s3,0 Ansi Color %s3,0 IBM Graphics characters %sabled3.0
+4Attributes:0 0Normal3,0 1Blinking03,0 2Inverted03,0 3Boldface,0 4Underline03.0
+4Time in account:0 %ld %s.
+4Poopcount:0 %ld
+%d Lines3,0 
+%d Nulls3,0 
+Cannot change to %s
+To ensure proper routing, please verify your spelling of "
+FALSE
+TRUE
+#ADDRESS
+#ROUTE
+Cannot allocate temp nodebuf
+Goto next room with mail: 
+Room "%s"
+getGroup-EOF detected!
+Allocating system tables twice.
+Freeing system tables twice.
+ System status screen 
+Up for: %s
+User: %-30s
+Room: %-30s
+Time: %s
+Room: %-55s
+Special Time
+Hall: %-30s
+Hall: %-70s
+Entered
+Read
+Poop
+Transmitted
+Received
+Free: %s bytes
+Connect Rate %ld, Port Rate %ld
+Port Rate %-30ld
+System event
+Time
+3You have exclusive message(s) here.0
+No room description %s
+Room table mismatch!
+Jump back to 
+, Next Hall: 
+group for new room
+Install "%s" as a %s%s room
+public
+hidden
+, shared
+%s file not found during aide message save!
+%s - Warning: Invalid %s date %d
+month
+, Net ID %s
+, owned by group %s
+, privileges group %s
+, hidden
+, anonymous
+, BIO
+, moderated
+, read-only
+, download-only
+ No such group: %s.
+ No such group.
+, networked/shared
+%s kicked out of group %s by %s
+, application
+%s added to group %s by %s
+(A/R/[B]):
+Both
+ Group is locked.
+Remove %s from group %s
+Add %s to group %s
+Cannot delete %s or %s groups.
+Group still has rooms.
+Porsche
+Group still has hallways.
+Group %s deleted
+ Users:
+ Rooms:
+ Hallways:
+, autoapp
+, permanent room
+5%s6Directory path is %s
+5%s6Application is %s
+5%s6Room description file is %s
+5%s6Room Info-line is: %s
+Room missing in table!
+%s file upload in room %s]
+<3-0> Hall descriptions. %-3.3s
+<3X0> Auto-ne3X0t hall.... %-3.3s
+<3V0> Auto 3V0erbose...... %-3.3s
+<3H0> 3H0elpful Hints..... %-3.3s
+<3J0> Sub3j0ects.......... %-3.3s
+<3G0> Si3g0natures........ %-3.3s
+Converting %s... %d
+Dictionary
+new dictionary file
+Special delivery options
+Receipt requested
+Message is not exclusive.
+ (Local %s)
+Receipt Confirmation
+2Error generating receipt confirmation0
+ Message #%s from %s @ %s received by %s @ %s.
+ Message #%s from %s received by %s.
+ Received via: 
+2Generating receipt confirmation...0
+ (Receipt confirmation requested)
+maxrooms = %d
+No *.HLP files in help directory!
+Batch upload by %s%s
+Please set your time and date
+ Sorry, must be at least %ld
+ Sorry, must be no more than %ld
+2Enter %s%s [%s%s%s]:0%s
+2Enter %s:0%s
+ Hallways accessible:
+Room %s is contained in:
+  -- Not a windowed room.
+No hallway description %s
+ <3J0>ump <3P0>ause <3S0>top
+%d day%s
+Cannot find %s. Looking for %lu at byte %ld!
+ Range is %ld - %ld
+%s number to read
+Value out of range.
+date for reading
+<3A0> Confirm 3A0bort............ %s
+<3E0> Confirm not .3E0O.......... %s
+Read only %s after %s
+search text
+Searching for %s.
+0<3Reversed %c0>
+Release
+Aide
+Sysop
+Respond
+    Unknown field: (3%c0) %s
+    # %s of %lu
+ (Slot #%lu, Room #%d)
+ (Compressed - %u to %u)
+ (Reference id # %lu)
+    Source id # is:  %s
+    Linked file is:  %s
+    Path followed:   %s
+    Source software: %s
+    Forced path:     %s
+ From
+ To %s03
+ Forwarded to %s03
+ [reply to %s]
+ [reply]
+ [received]
+ [reply sent]
+ In %s03>
+ (%s only)
+ 1[problem user]03
+ [moderated]
+ [viewable %s]
+problem user
+moderated
+ [file-linked]
+ 1[censored]03
+    Subject: 4%s0
+ out of memory
+ No file "%s"
+3Filename         Size  Comments0
+%-14s %-17s %-16s %s (download time %s)
+3Filename:0
+3Size:0
+%-14s %s %s  %-16s %s
+3Date:0
+3Uploaded By:0
+%-14s %s
+3Comments:0
+%-12s %8s  %s
+comments
+Batch upload of %s in room %s]
+source filename
+ Invalid filename
+destination room
+No room "%s".
+Room "%s" is not a directory room.
+ Invalid pathname
+ File exists.
+Copying file...
+Cannot move %s
+File %s moved to %s] from %s] by %s
+filename
+File info changed for file %s by %s
+Reconfiguring Citadel.
+Could not configure.
+Cannot allocate space for scroll back buffer
+new date
+new time
+Error parsing date, please try again.
+Error parsing time, please try again.
+Could not read CONFIG.CIT.
+Citadel Started
+ You were caller %s
+ You were logged in for: %s
+ You entered %d %s
+ and read %d.
+ %ld %s used this call
+ Your balance is %ld %s
+ %s0 logged out
+Carrier dropped
+Logout %s
+NetLogout %s (succeeded)
+NetLogout %s (failed)
+  ----- %4d messages entered
+  ----- %4d messages read
+  ----- %4d messages expired
+  ----- %4d messages duplicate
+Cost was %ld
+  Sorry, Sysop not around.
+Yes
+No
+Abort
+(Y/N)[N]
+(Y/N)[Y]
+(Y/N/A)[A]
+(Y/N/A)[N]
+(Y/N/A)[Y]
+(Yes/No)[No]
+(Yes/No)[Yes]
+(Yes/No/Abort)[Abort]
+(Yes/No/Abort)[No]
+(Yes/No/Abort)[Yes]
+ %s0 logged out @ %s
+Just to make sure this is still you...
+your old initials
+your old password
+Imposter!
+Okay, I know it is you, so...
+ 3Hall still has the following rooms:0
+%s file missing! (%d)
+<3&0> Address........... %s
+Address
+new address
+Duplicate or invalid address.
+4Address:0 %s
+ Windows version %d.%02d
+ %s bytes free
+ %s in one chunk
+zapMsgFil: write failed
+MESSAGEK = %lu
+zapMsgFil: write failed
+ Exclusive %s to "%s"
+recipient
+ Sysop %s forwarded to "%s"
+ %s forwarded to Sysop on %s
+ %s forwarded to 
+full path to file
+ No aborted %s.
+ Using aborted %s.
+Release %s
+Error mailing to %s, %s0 in old buffer.
+Anonymous message #%s
+Cannot open archive file!
+Journal file already open!
+No archive file!
+ No %s0 in queue
+ Inserting %s...
+ Inserting %s0 #%lu
+ No %s0 in queue
+<3C0> Dictionary........ %s
+<3N0> Name.............. %s
+<3I0> Infoline.......... %s
+<3D0> Directory......... %s
+<3L0> Application....... %s
+<3O0> Auto Application.. %s
+<3F0> Description File.. %s
+<3G0> Access Group...... %s
+<3V0> Privileges Group.. %s
+    Download-only..... %s
+    Upload-only....... %s
+    Read-only......... %s
+    Group moderates... %s
+<3H0> Hidden............ %s
+<3B0> BIO............... %s
+<3Y0> Anonymous......... %s
+<3M0> Moderated......... %s
+<3E0> Networked/Shared.. %s
+<3W0> Network ID........ %s
+<3P0> Permanent......... %s
+<3U0> Subject........... %s
+<3R0> Archive Room...... %s
+None
+Application
+Application filename
+Must be Sysop at console to change %s.
+Archive
+Archive filename
+Auto Application room
+Name
+New room name
+Info-line
+new room info-line
+Network ID
+New Network ID
+Directory
+Directory room
+ No drive and path
+ Now space %s
+Path
+Checking pathname "%s"
+%s does not exist!
+Create
+mkdir() error.
+Download-only
+Upload-only
+Must be Sysop to make directories.
+Description File
+Display room description File
+Description Filename
+Must be Sysop and have Room descriptions configured.
+Access Group
+Group for room
+Must be Sysop to change group for %s> or %s)
+Must be Sysop to make %s>, %s> or %s) %s.
+Cannot make %s> group-only.
+Privileges Group
+Read-only
+Group Moderates
+BIO Room
+BIO 
+Hidden Room
+hidden
+Anonymous Room
+anonymous
+Moderated
+Must be Sysop to make Moderated rooms.
+Networked/Shared room
+Must be Sysop to make Shared rooms.
+Permanent
+Directory rooms are automaticly Permanent.
+%s>, %s>, %s), and %s> are always Permanent.
+Subject
+Ask for subject in room
+%c ? for help
+Room "%s" changed to "%s" by %s
+Jump
+Kill
+Mark
+Censor
+Next
+Stop
+Continuous +
+Continuous -
+Verbose +
+Verbose -
+Header Scan +
+Header Scan -
+Cannot find attribute
+        Unknown group %s!
+Purge user "%s"
+ Killing %s...
+ (Node)
+ Killing %s0 #%lu
+file number or name to remove from queue
+ No such file in queue.
+ No %s0 in queue
+ Not enough memory to sort list
+ nm: %s0
+ in:
+ pw:
+Leave a %s2 to the sysop
+Illegal inits;pw: %s;%s
+No record: Enter as new user
+No record: Request access
+Thank you, goodbye.
+We already have a %s
+New user %s
+ (Console)
+the title you desire
+the surname you desire
+your full real name
+your address (1st of 3 lines)
+your address (2nd of 3 lines)
+your address (3rd of 3 lines)
+ All log slots taken.
+Try number %d.
+ bad protocol
+ Sending mail file.
+ Receiving room request file.
+ Local editor only!
+%sless
+#COMDRIVER
+Warning: %s driver multiply defined%s
+Not enough memory for %s driver
+#VIDDRIVER
+#KBDDRIVER
+#SNDDRIVER
+room name
+3Room %s3> hidden from users:0
+3Room %s3> not hidden from users:0
+ 3Rooms hidden from %s3:0
+ 3Rooms not hidden from %s3:0
+Add "%s" to room "%s>"
+%s added to room %s> by %s
+Remove "%s" from room "%s>"
+%s removed from room %s> by %s
+Invite 
+User
+No %s0 in queue
+ Not enough memory for %s0 queue
+ Automatic %s 
+mark
+kill
+censor
+ disabled.
+Enable automatic mark
+Enable automatic kill
+Enable automatic censor
+Following %s #%lu deleted from %s> by %s:
+Not here.
+Following %s #%lu inserted in %s> by %s:
+Mark
+Uncensor
+Censor
+Pull
+Working %  
+, done.
+Net 69 Mail Stub.
+3Old group was %s.0
+Uploads temporarily disabled; only %ld bytes free disk space.
+Encrypt %s
+encryption key
+2This message is encrypted.0
+decryption key
+   [3%s skipped because it has advanced MCI0]
+<3L0> Verbose 3L0ogout.... %-3.3s
+Verbose logout List in userlog %s
+  -- You cannot create more than %u rooms per call.
+Message base initialized.
+Confirm save %s
+Confirm abort %s
+Confirm not .Enter Old after abort %s
+Clear aborted message
+ %d node%s
+Checking spelling...
+Confirm save
+ F7 þ Bells-On 
+Console
+ Modem 
+ 3You have unread old exclusive %s in:0
+3You have unread old exclusive message(s) here.0
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}

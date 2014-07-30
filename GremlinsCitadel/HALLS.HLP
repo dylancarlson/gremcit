@@ -1,0 +1,33 @@
+                               3cHELP HALLWAY0
+ 
+                             3g--- General ---0
+ 
+    Hallways are sets of rooms.
+ 
+    (1)  A room may appear in more than one hallway.
+    (2)  You may change hallways only from certain rooms, these rooms are
+         called windows.  Only the sysop can create hallways, and
+         aide-privilege people can add or remove rooms from them.
+ 
+                          3g--- Listing halls ---0
+ 
+  3b.RH0 - Read Hallways lists hallways accessible from the room you are in.
+  3b.KW0 - This tells you what rooms in the current hall go to other places.
+            The verbose flag (.KVW) will tell you where they go.
+ 
+                          3g--- Changing halls ---0
+ 
+  3b>0 3b]0   -- Next Hall.      (ONLY IN THE <<LOBBY>> ROOM!)
+  3b<0 3b[0   -- Previous Hall.  (ONLY IN THE <<LOBBY>> ROOM!)
+ 
+    The Next and Previous Hallway commands are a quick and easy way to switch between hallways.  They will only reach hallways accessible from the current room.
+ 
+  3b.EH0  -- Enter Hallway.
+ 
+    Enter Hallway lets you select a hallway by name.  The hallway must be one that is accessible from the current room.
+ 
+                          3g--- Related Topics ---0
+ 
+                                    3cROOMS0
+ 
+

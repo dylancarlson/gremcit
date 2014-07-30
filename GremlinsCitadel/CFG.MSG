@@ -1,0 +1,106 @@
+%s may not equal %s
+Read CONFIG.CIT
+CONFIG.CIT : ERROR: cannot find #%s keyword!
+This is the country, state or province, and county (or whatever
+low-level subdivision your country uses) in which your board resides.
+The preferred format is hierarchical: country/state/county. For example,
+a Seattle, Washington board would have US/WA/KING.
+
+This is the name of the system. It is displayed at the beginning of a
+call, and when the .Read Status command is used. When a networked
+message from your board is read on another node, this nodename will be
+in the header, along with the region.
+
+This is the city or town that your board is in. If you do not live
+within the boundaries of any city/town, choose the nearest major
+city/town as your region. In networked messages from your board, the
+region is displayed after the nodename, in the format "nodename,
+region".
+
+This is the user name of the BBS's sysop. This account has access to all
+groups. If the (optional) #FORWARD keyword is set to 1, then all mail to
+"Sysop" will be forwarded to the #SYSOP account.
+
+This is a string containing the node's phone number, including area
+code. At present, it is used for informational purposes only (users will
+see this field in the message header when reading verbosely), so it can
+be just a partial number or "private" if the board is a private node.
+For the United States and Canada, the preferred format is
+"(xxx)xxx-xxxx".
+
+This determines which drive and subdirectory the Citadel system files
+(CTDL.EXE, all .DAT, .TAB, .CIT files, etc.) will be in. It must be
+given as a full pathname, including drive letter.
+
+This is the standardized three letter abbreviation for your node name followed
+by a period and the three letter name for your local calling area, as
+determined by the code of your local airport. It is used for network purposes.
+For example, the address for "The Grand Illusion" in Seattle is "tgi.sea".
+
+This defines the modem data port. Citadel supports COM1 through COM4:
+use 1 for port 1, 2 for port 2, 3 for port 3, 4 for port 4. Even though
+Citadel supports them, try to avoid COM3 and COM4; on the IBM PC, the
+COM3 and COM4 hardware is not well designed.
+
+Enter value for #%s or <CR> to abort:
+Enter value for #%s or <CR> for "%s":
+Unknown required keyword: %s
+%s invalid: cannot change to "%s" directory
+Create path?
+Could not create directory: %s
+Directory created
+Could not switch to %s after creation!
+message
+messages
+Saving
+credit
+credits
+CONFIG.CIT (%d) Warning: %s multiply defined!
+Warning: #%s changed to %lu
+Cannot allocate space for scroll back buffer
+MDATA port can only currently be 1, 2, 3 or 4
+%s - Warning: Unknown #%s parameter %s
+Invalid CONFIG.CIT %s: %s
+Too many borders
+#MAXHALLS too large for specified #MAXROOMS
+Cannot allocate space for accounting information
+Protocol name
+%s field bad; must be 0 or 1
+Batch
+Block field bad; must be 0 to 20K
+Receive command
+Send command
+Auto-upload string
+Response file download command
+ not enough memory for %s "%s"
+Editor name
+Local
+Editor command line
+Userapp name
+Userapp text
+Userapp command
+Auto Editor name
+Auto Editor command line
+replaced word
+replace string
+Too few arguments for %s keyword
+Door name
+Door command
+Door group
+
+Holiday name
+Month field bad; must be 1 to 12
+Date field bad; must be 0 to 31
+Week field bad; must be 0 to 5
+Day field bad; must be 0 to 7
+Day and week field must either both be 0 or neither be 0
+Cannot use both date and day/week fields together
+T
+F
+Y
+N
+Archiver name
+Archiver view command
+Archiver extract command
+Archiver extension
+Bad address: %s

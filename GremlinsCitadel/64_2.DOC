@@ -1,0 +1,155 @@
+GremCit/064.2 Update
+~~~~~~~~~~~~~~~~~~~~
+
+        The following updates have been made to /064:
+
+64.1    The 'W' option shows up properly in the .Enter Configuration
+        (.EC) command.
+
+        #CHECKSYSMAIL should be working.
+
+        #CHATFLASH should now work.
+
+        The .Invite Room (.IR) command doesn't show rooms reversed.
+
+        Citadel no longer asks for replies to outgoing netmail.
+
+        Fixed possible memory curruption during config.
+
+        When prompted for a date, hitting return now defaults to the
+        current date.
+
+        If #NOPWECHO 0, Citadel now echos string input when not getting
+        initials or password.
+
+        #MAXERROR CONFIG.CIT keyword specifies maximum number of
+        errors (bad input) Citadel accepts in a row before hanging
+        up.
+
+64.2    In .Sysop Hall Kill (.SHK), now prompt for hall. If current
+        hall is killed, go to Root.
+
+        Fixed reversed messages in .Sysop Cron Set (.SCS).
+
+        Fixed bug in display when building net addresses.
+
+        Fixed display of .Read Archive file Menu (.RZ?).
+
+        Removed possible extra blank line from .Read Configuration
+        (.RC).
+
+        When creating a new hall with .Sysop Hall New (.SHN), go to
+        the hall.
+
+        .Aide Fileinfo set (.AF) checks to make sure it is in a
+        directory room.
+
+        In Download (D and .D), Upload (U and .U), and .Read Archive
+        file (.RZ), removed extra space before '?' in non directory
+        room.
+
+        Cleaned up display of .Enter Door (.ED).
+
+        .Aide Fileinfo set (.AD) no longer leaves a mostly empty
+        message if there are no new comments.
+
+        File comments should now be properly saved in message in the
+        current room after uploading during a hs-link download.
+
+        If #OFFHOOK is set to 2, don't go off hook when
+        incorporating.
+
+        Fixed funky display when setting Verbose Logout (L) in .Enter
+        Configuration (.EC).
+
+        In Net 1_1 and Net 1_69, build addresses at the correct time.
+
+        Fixed display of .Sysop Show user (.SS) and .Read
+        Configuration (.RC) if the user is in no groups.
+
+        The .Sysop Auxmem debug info (.S^) command now gives info on
+        XMS and EMS errors.
+
+        New script functions ICHAR, ICHARNE, DUMPF, DUMPFC, PAUSE, and
+        WRITEAPL:
+
+            ICHAR     Takes no parameters, and returns the key the
+                      user pressed as a string value. The user's input
+                      is echoed to the screen.
+
+            ICHARNE   Takes no parameters, and returns the key the
+                      user pressed as a string value. The user's input
+                      is not echoed to the screen.
+
+            DUMPF     Takes two parameters: a file name as a string
+                      value and a boolean value specifying whether to
+                      format the file or not. The file is displayed to
+                      the modem user and the console user.
+
+            DUMPFC    Takes two parameters: a file name as a string
+                      value and a boolean value specifying whether to
+                      format the file or not. The file is displayed to
+                      the console user only.
+
+            PAUSE     Takes one parameter: the number of hundreths of
+                      a second to pause. Citadel waits at least the
+                      specified length of time, but may wait for up to
+                      10/182 of a second longer, because that is only
+                      how percice MS-DOS is in reporting the time to
+                      Citadel.
+
+            WRITEAPL  Takes two parameters: the first is an integer,
+                      refering the INPUT.APL field to write; the
+                      second is a string, telling what to write for
+                      that value. Refer to the following table for
+                      valid fields:
+
+                          Code    Value
+                          33      Surname of currnet user
+                          34      Title of current user
+                          35      Is user a sysop?  1 or 0
+                          36      Is user an aide?  1 or 0
+                          37      Is user twitted?  1 or 0
+                          38      Is user in expert mode?  1 or 0
+                          39      Number of minutes left to the user
+                          40      User has a permanent acct? 1 or 0
+                          41      User has net access?  1 or 0
+                          42      Can user send mail?  1 or 0
+                          43      Verified user? 1 or 0
+                          48      User's real name
+                          50      How many nulls do they need?
+                          51      Linefeeds?  1 or 0
+                          52      Uppercase only terminal?  1 or 0
+                          54      Number of columns on screen
+                          55      Number lines on screen
+                          56      Unlusted userlog entry? 1 or 0
+                          73      Name of hall we are in
+                          74      Name of room we are in
+                          95      Number charachters sent by GremCit
+                          96      Number charachters recived
+                          97      Has SysReq been pushed? 1 or 0
+                          99      Display paused w/F4  1 or 0
+                          100     Is chat mode on or off? 1 or 0
+                          101     Are bells on? 1 or 0
+                          102     Is Alt-P printer catch on? 1 or 0
+                          111     Add the user to this group
+                          112     Remove the user from this group
+                          200     Name of the person the message is from
+                          201     Name of the person the message is to
+                          202     Group the message is for
+                          203     Room the message is in
+
+                      If you wish to use MESSAGE.APL, you must write
+                      it out with the file write functions. Remember
+                      to put it in the application directory.
+
+        Fixed Auto ANSI and colors in DEFUSER.CIT for new users.
+
+        Made Citadel be able to be run from path.
+
+        Etc.dat is now named Etc.tab.
+
+        Creating rooms with the console sysop interface now works correctly.
+
+
+        

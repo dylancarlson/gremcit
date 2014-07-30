@@ -1,0 +1,16 @@
+ .EC>onfiguration
+ .ED>efault Hallway
+ .EE>xclusive Message
+ .EF>orwarding Address
+ .EH>allway
+ .EL>imited-Access
+ .EM>essage (Default)
+ .EO>ld-Message
+ .EP>assword
+ .ER>oom
+ .ET>extfile
+ .EW>C-Protocol
+ .EX>clude Room
+ .EY>modem protocol
+ .E?> -- this list
+

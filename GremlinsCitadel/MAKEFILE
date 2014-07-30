@@ -1,0 +1,197 @@
+ #  DragCit Makefile
+
+ALL : CTDL.EXE
+
+ACCOUNT.OBJ : ACCOUNT.C
+    bcc $(CFLAGS) $(DEFS) ACCOUNT.C
+
+APLIC.OBJ : APLIC.C
+    bcc $(CFLAGS) $(DEFS) APLIC.C
+
+CARRIER.OBJ : CARRIER.C
+    bcc $(CFLAGS) $(DEFS) CARRIER.C
+
+CHAT.OBJ : CHAT.C
+    bcc $(CFLAGS) $(DEFS) CHAT.C
+
+CONFIG.OBJ : CONFIG.C
+    bcc $(CFLAGS) $(DEFS) CONFIG.C
+
+CONSOLE.OBJ : CONSOLE.C
+    bcc $(CFLAGS) $(DEFS) CONSOLE.C
+
+CRON.OBJ : CRON.C
+    bcc $(CFLAGS) $(DEFS) CRON.C
+
+CTDL.OBJ : CTDL.C
+    bcc $(CFLAGS) $(DEFS) CTDL.C
+
+DO.OBJ : DO.C
+    bcc $(CFLAGS) $(DEFS) DO.C
+
+DOAIDE.OBJ : DOAIDE.C
+    bcc $(CFLAGS) $(DEFS) DOAIDE.C
+
+DOSYSOP.OBJ : DOSYSOP.C
+    bcc $(CFLAGS) $(DEFS) DOSYSOP.C
+
+DOWN.OBJ : DOWN.C
+    bcc $(CFLAGS) $(DEFS) DOWN.C
+
+EDIT.OBJ : EDIT.C
+    bcc $(CFLAGS) $(DEFS) EDIT.C
+
+FILES.OBJ : FILES.C
+    bcc $(CFLAGS) $(DEFS) FILES.C
+
+FORMAT.OBJ : FORMAT.C
+    bcc $(CFLAGS) $(DEFS) FORMAT.C
+
+GROUP.OBJ : GROUP.C
+    bcc $(CFLAGS) $(DEFS) GROUP.C
+
+GRPEDIT.OBJ : GRPEDIT.C
+    bcc $(CFLAGS) $(DEFS) GRPEDIT.C
+
+HALL.OBJ : HALL.C
+    bcc $(CFLAGS) $(DEFS) HALL.C
+
+HALLEDIT.OBJ : HALLEDIT.C
+    bcc $(CFLAGS) $(DEFS) HALLEDIT.C
+
+HELP.OBJ : HELP.C
+    bcc $(CFLAGS) $(DEFS) HELP.C
+
+INFO.OBJ : INFO.C
+    bcc $(CFLAGS) $(DEFS) INFO.C
+
+INFOFILE.OBJ : INFOFILE.C
+    bcc $(CFLAGS) $(DEFS) INFOFILE.C
+
+INIT.OBJ : INIT.C
+    bcc $(CFLAGS) $(DEFS) INIT.C
+
+INPUT.OBJ : INPUT.C
+    bcc $(CFLAGS) $(DEFS) INPUT.C
+
+LIBRARY.OBJ : LIBRARY.C
+    bcc $(CFLAGS) $(DEFS) LIBRARY.C
+
+LOG.OBJ : LOG.C
+    bcc $(CFLAGS) $(DEFS) LOG.C
+
+LOG2.OBJ : LOG2.C
+    bcc $(CFLAGS) $(DEFS) LOG2.C
+
+LOGEDIT.OBJ : LOGEDIT.C
+    bcc $(CFLAGS) $(DEFS) LOGEDIT.C
+
+LOGIN.OBJ : LOGIN.C
+    bcc $(CFLAGS) $(DEFS) LOGIN.C
+
+LOGINNEW.OBJ : LOGINNEW.C
+    bcc $(CFLAGS) $(DEFS) LOGINNEW.C
+
+LOGOUT.OBJ : LOGOUT.C
+    bcc $(CFLAGS) $(DEFS) LOGOUT.C
+
+MISC.OBJ : MISC.C
+    bcc $(CFLAGS) $(DEFS) MISC.C
+
+MISC2.OBJ : MISC2.C
+    bcc $(CFLAGS) $(DEFS) MISC2.C
+
+MODEM.OBJ : MODEM.C
+    bcc $(CFLAGS) $(DEFS) MODEM.C
+
+MSG.OBJ : MSG.C
+    bcc $(CFLAGS) $(DEFS) MSG.C
+
+MSGCFG.OBJ : MSGCFG.C
+    bcc $(CFLAGS) $(DEFS) MSGCFG.C
+
+MSGMAKE.OBJ : MSGMAKE.C
+    bcc $(CFLAGS) $(DEFS) MSGMAKE.C
+
+MSGMOD.OBJ : MSGMOD.C
+    bcc $(CFLAGS) $(DEFS) MSGMOD.C
+
+MSGREAD.OBJ : MSGREAD.C
+    bcc $(CFLAGS) $(DEFS) MSGREAD.C
+
+MSGTAB.OBJ : MSGTAB.C
+    bcc $(CFLAGS) $(DEFS) MSGTAB.C
+
+NET.OBJ : NET.C
+    bcc $(CFLAGS) $(DEFS) NET.C
+
+NETDC15.OBJ : NETDC15.C
+    bcc $(CFLAGS) $(DEFS) NETDC15.C
+
+NETMAIL.OBJ : NETMAIL.C
+    bcc $(CFLAGS) $(DEFS) NETMAIL.C
+
+NETMSG.OBJ : NETMSG.C
+    bcc $(CFLAGS) $(DEFS) NETMSG.C
+
+NETNODE.OBJ : NETNODE.C
+    bcc $(CFLAGS) $(DEFS) NETNODE.C
+
+OUTPUT.OBJ : OUTPUT.C
+    bcc $(CFLAGS) $(DEFS) OUTPUT.C
+
+PORT.OBJ : PORT.C
+    bcc $(CFLAGS) $(DEFS) PORT.C
+
+ROOM.OBJ : ROOM.C
+    bcc $(CFLAGS) $(DEFS) ROOM.C
+
+ROOM2.OBJ : ROOM2.C
+    bcc $(CFLAGS) $(DEFS) ROOM2.C
+
+ROOMEDIT.OBJ : ROOMEDIT.C
+    bcc $(CFLAGS) $(DEFS) ROOMEDIT.C
+
+STRFTIME.OBJ : STRFTIME.C
+    bcc $(CFLAGS) $(DEFS) STRFTIME.C
+
+TERM.OBJ : TERM.C
+    bcc $(CFLAGS) $(DEFS) TERM.C
+
+TIMEDATE.OBJ : TIMEDATE.C
+    bcc $(CFLAGS) $(DEFS) TIMEDATE.C
+
+TRAP.OBJ : TRAP.C
+    bcc $(CFLAGS) $(DEFS) TRAP.C
+
+WINDOW.OBJ : WINDOW.C
+    bcc $(CFLAGS) $(DEFS) WINDOW.C
+
+XMODEM.OBJ : XMODEM.C
+    bcc $(CFLAGS) $(DEFS) XMODEM.C
+
+ZIPFILE.OBJ : ZIPFILE.C
+    bcc $(CFLAGS) $(DEFS) ZIPFILE.C
+
+SER.OBJ   : SER.ASM
+    tasm SER.ASM;
+
+AUXMEM.OBJ   : AUXMEM.ASM
+    tasm /ml AUXMEM.ASM;
+
+CTDL.EXE : \
+    account.obj aplic.obj carrier.obj chat.obj config.obj\
+    console.obj cron.obj ctdl.obj do.obj doaide.obj\
+    dosysop.obj down.obj edit.obj\
+    files.obj format.obj group.obj grpedit.obj hall.obj\
+    halledit.obj help.obj info.obj infofile.obj init.obj\
+    input.obj library.obj log.obj log2.obj logedit.obj\
+    login.obj loginnew.obj logout.obj misc.obj\
+    misc2.obj modem.obj msg.obj msgcfg.obj msgmake.obj\
+    msgmod.obj msgread.obj msgtab.obj net.obj netdc15.obj\
+    netmail.obj netmsg.obj netnode.obj output.obj port.obj\
+    room.obj room2.obj roomedit.obj strftime.obj term.obj\
+    timedate.obj trap.obj window.obj zipfile.obj\
+    xmodem.obj ser.obj auxmem.obj
+   linkit
+

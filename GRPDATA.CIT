@@ -1,0 +1,28 @@
+/************************************************************************/
+/*                              grpdata.cit                             */
+/*                                                                      */
+/*  Citadel accounting data file.  This file defines the costs of       */
+/* various resources on a per-group basis, as well as valid times for   */
+/* calling and balance increments.  All numeric values default to zero  */
+/* if not defined.  The #day and #hours values will all be true (members*/
+/* of the indicated group can login at any time) and the #special       */
+/* attribute will be disabled (special time periods are not used).      */
+/************************************************************************/
+
+/************************************************************************/
+/* define accounting for the default group.  assume we allow calls      */
+/* during the day by default, and special hours from noon till six      */
+/************************************************************************/
+
+#group              Sky
+#days               mon tue wed thu fri sat sun
+#time_increment     1000.0
+#call_increment     1000.0
+#input             -1.0           -1.0
+#output            -1.0           -1.0
+#hours              0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+#special
+#time               1.0                
+#maximum            1000            1000
+
+

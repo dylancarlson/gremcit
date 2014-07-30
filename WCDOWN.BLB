@@ -1,0 +1,5 @@
+ You must have WC protocol file transfer capability (also known as
+XMODEM) to use this function.
+ 
+ CRC protocol is supported.
+

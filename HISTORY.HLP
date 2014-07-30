@@ -1,0 +1,215 @@
+ CITADEL -- updated 87Apr26
+ -------
+   Citadel is a set of BBS/GDS (Bulletin Board System/General Discussion
+System) software systems. The concept of Citadel is to divide the messages
+placed on the system into natural divisions, at the discretion of the
+authors of the messages, and to use the metaphor of rooms to do so.
+ 
+   The Citadel concept drives several versions of BBS/GDS software that
+have been written for:
+   o certain 8-bit CP/M systems,
+   o IBM PCs and clones running MS/PC-DOS 2.x and 3.x,
+   o Commodore Amiga systems,
+   o Atari ST systems,
+   o Atari 800XL systems.
+ 
+ Citadel History
+ ---------------
+   Citadel's direct predecessor was an Adventure program named "DanDe.pas" that
+existed on a University of Washington computer system. Very similar to the
+Zork series of games, DanDe.pas's innovation that carried over to Citadel
+was the ability to leave messages on the "walls" of rooms; the messages
+functioned to prove that the author of the message had actually made it
+to the room, some of which were hard to find, thus according status to the
+finders.
+ 
+   The concept proved so popular that DanDe.pas was eventually banned from
+the computer system; such are the rewards of being the most popular program
+on line!
+ 
+   The original author of Citadel was a gentleman who used the alias "Cynbe
+ru Taren".  He borrowed the concept of "rooms" from DanDe.pas as a reaction
+to the systems that were currently available -- linear systems that supported
+one single list of messages to read, which could only be read forward
+and backward.  Recognizing that it was the design of such systems that
+encouraged "discussions" that tended to leapfrog and thus become fragmented,
+he designed Citadel as a collection of "rooms", a familiar metaphor to 99%
+of civilization, and provided several ways of easily accessing messages.
+The room concept provided a convenient, understandable method for sensibly
+separating discussions.
+ 
+   To this strong concept he added a consistent command structure which
+featured mnemonic single stroke commands available for the most popular
+and safest commands. The more obscure, dangerous, or simply unused commands
+were hidden from the fingers of unknowing novices by allowing access to them
+through the use of a "command prefix" -- i.e., typing a '.' would allow
+access to the advanced commands that users would not need as single stroke
+commands.
+ 
+   Cynbe wrote the original Citadel program in December of 1980, and left it
+running over the holiday weekend - to find many favorable comments from the
+users who'd found it.
+ 
+   The original Citadel node, ODD-DATA, lasted for about six months;
+a hardware failure forced it offline. By the time the hardware was repaired,
+Cynbe had found better uses for his computer, but didn't want to let the code
+go unused. He posted it on another bulletin board (John Rivoire's
+MAILBOARD), and it started out into the world.
+ 
+   He also kept tinkering with both the code and the design, with the help
+of another Seattlite, Glenn Gorman.  However, with the release of Version 2.0
+of the CP/M Citadel code (not to be confused with the C-86 version numbers,
+which are an entirely different ball of wax), Cynbe retired permanently
+from the BBS scene due to a large squabble that erupted in the Seattle
+area in mid 1982, for which he felt (erroneously, in my opinion) personally
+responsible.
+ 
+   One of his final acts was to deliver the V2.0 code to T'an T'u, who put
+up Polaris Citadel.  The code was posted publicly for download, and the
+distribution started.  One of the features of V2.0 was the addition of
+the Mail room, and restructuring of the data base.
+ 
+ Citadel Distribution
+ --------------------
+   The CP/M version of the code has appeared since then (normally version
+2.10) in a number of places, such as the CP/M SIG libraries, Fido download
+systems, CUG libraries, and the like, and the code has become a hotbed for
+experimentation with the code and concepts involved in Citadel.
+ 
+   While a huge number of both fragmentary and complete installations of
+Citadel have spread throughout the country, there are known to be at least
+3 major geographic areas where Citadel continues to thrive, grow, and evolve.
+While the participants are numerous, what follows will be a brief summary.
+ 
+   West Coast:
+   -----------
+   The biggest center for room-based systems is based in Seattle, where
+a Citadel-derivative called Stonehenge, written by David Bonn, is by far
+the most popular.  He has extended the original Citadel with the concept
+of "hallways," along with destroying the Mail> room.  There are also a number
+of MiniBin systems in the Seattle area, and several Citadels that are supported
+by The Gremlin.
+ 
+   Another active area on the West Coast is the Sacramento, CA area, where
+a number of Citadels and derivatives thrive.
+ 
+   East Coast:
+   -----------
+   The three main Citadels on the East Coast appear to be MorningStar Keep,
+led by Brian Riley, Sony Citadel, shepherded by Andy Meyer, and Brick Citadel,
+run by Ted Mozer.  These three are descended from V2.10 code obtained from
+the CP/M SIG, and have been substantially debugged and enhanced since then
+by Brian and Andy, with help from others.  Andy has supplied a version to
+Japan, where the installation is reportedly up and running; Brian, also,
+has distributed versions.
+ 
+   The East Coast Citadels have been far more conservative than the West
+Coast, retaining the Mail room, and making few extensions to the concepts
+or command set of the original Citadel.  A result is that their systems tend
+to be very stable.
+ 
+   Midwest:
+   --------
+   The third major enclave of Citadel seems to be situated in the Twin Cities
+area of Minnesota (although there are at least two Citadels in North Dakota).
+Citadel originally came to the Twin Cities under the auspices of the SuperComp
+club of Sperry-UNIVAC Corporation (now known as >gag< UNISYS),
+when, at the urging of Jeff Vosburg (Vosburg the Wise) and Steve Berlin, Ray
+Schneider (aka The Conductor) ordered and paid for Citadel from the CUG (C
+Users Group), and received CP/M Citadel V2.10. Vosburg hacked at the buggy
+code for a short while, and then the code was passed onto John Stanley and
+Hue, Jr.  The code was slowly debugged annd enhanced over the summer of '84.
+ 
+   In the Fall of '84, an effort was made by Hue, Jr., with the assistance of
+John Stanley, to port Citadel to the MS-DOS side of a Zenith Z-100.  This
+resulted in the Citadel-86 (name nominated by Lord Castleregh and confirmed
+by the users of Test System) version of Citadel for MS-DOS systems;
+subsequently, Citadel-86 was modified to run on IBMs and Clones.
+ 
+   The philosophy for development in the Twin Cities has had two facets.
+   1) Extensions fit in with the concepts ("magic") of Citadel;
+   2) User suggestions play a strong, if not overpowering, part in the process.
+ 
+   This has resulted in no major changes in the basic Citadel structure; new
+commands have enhanced Citadel's structure and useability.
+ 
+   Citadel-86 also supports an active network facility, which allows the
+transmission and reception of files, netMail, and room sharing.
+ 
+   There are other Citadels, of course, outside of these areas, such as
+in Texas, California, and New York.  However, they are not known to be as
+well organized as the three areas mentioned above.
+ 
+ DERIVATIVES
+ -----------
+   Citadel has inspired a number of clones.  Nationally known is Minibin,
+written in BASIC by Glenn Gorman of Seattle.
+ 
+   In the Twin Cities area, Lum the Mad has written Citadel-65 in BASIC,
+Major Tom modified existing BASIC code into PsuedoDel, and Hue, Sr. has
+written NeoCitadel in Turbo Pascal.  There are undoubtedly other derivatives
+floating around in other parts of the country; others are known to be planned,
+using such diverse languages as Assembly and COBOL.
+ 
+ INTERNATIONAL
+ -------------
+   There are reports of Citadel code making it to Kuwait; Andy Meyer has an
+installation of his code running in Japan; and there are rumors of an
+installation in Australia.
+ 
+ CURRENTLY
+ ---------
+   A coherent summary would be impossible in the space available;
+generalizations are probably best.  Citadel's tradition is that source code
+be made available on request, and that tradition is held to whenever possible
+apparently.  On the West Coast, evolution is fast and drastic; on the East
+Coast, very slow (due to being hosted on CP/M systems limited to 64K program
+space, unlike the Citadel-86 systems); in the Twin Cities, it follows the
+whims of John Stanley and Hue, Jr., being blown by their own winds and
+the suggestions of the users.
+ 
+   Many great Citadels have come and gone.  In the Twin City area, these
+include SuperComp (now reincarnated in Hue Sr.'s SuperComp II running
+NeoCitadel), Tralfamador, and Just Another Citadel; undoubtedly, other areas
+of the USA have lost and lamented Citadels.  They tend to be friendly
+places....
+ 
+ SOURCES
+ -------
+   Source for the West Coast version of Citadel (i.e. minus Mail) may be
+available on Polaris (now known as PolarServ) at (206) 329-3100, 300
+baud only.  David Bonn's CKMCMS running Stonehenge is at (206) 329-0436.
+ 
+   For those interested in the East Coast version, talk to Brian Riley
+or Andy Meyer; their distribution policy is uncertain. Brian Riley's
+MorningStar Keep is at (609) 268-9597, 300/1200 baud.  Andy Meyer's Sony
+Citadel is at (201) 930-6483, 300/1200.
+ 
+   Citadel-86 source is available on Test System @ (612) 866-1804 300/1200/2400.
+ 
+   The old source for CP/M Citadel in the Twin Cities that Hue, Jr. and John
+Stanley no longer support may possibly be obtained if requested very politely
+with the understanding that it's a mess.
+ 
+   Hue, Jr. runs C-86 Test System at (612) 866-1804, 300/1200/2400.
+ 
+     -- Hue, Jr.
+        87Apr26
+ 
+ 
+   This file has been culled from the following sources:
+ 
+ o The HISTORY.HLP file of Polaris Citadel, courtesy of T'an T'u (available
+   on request on Test System; ask for WESTHIST).
+ 
+ o The HISTORY.HLP file of MorningStar Keep, courtesy of Brian Riley
+   (available on request on Test System; ask for EAST.HST).
+ 
+ o The HISTORY.DOC file that came with the original installation of Citadel
+   in the Twin City area.
+ 
+ o My senile memories.
+ 
+ o And, of course, the fine users of the C-86 Test System, in particular
+   Andrew Nelson, Mary Mary, and Hue, Sr.
+t Citadels have been far more conservative 

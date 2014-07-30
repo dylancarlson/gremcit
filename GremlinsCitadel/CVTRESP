@@ -1,0 +1,10 @@
+C:\BORLANDC\LIB\c0l.obj+
+convert
+convert.EXE
+/c/s
+C:\BORLANDC\LIB\OVERLAY.LIB+
+C:\BORLANDC\LIB\EMU.LIB+
+C:\BORLANDC\LIB\mathl.lib+
+C:\BORLANDC\LIB\cl.lib+
+spawnl.lib
+

@@ -1,0 +1,23 @@
+ HELP CONFIG
+
+ Reconfiguring.
+
+ .RC  -- Read Configuration
+ .EC  -- Enter Configuration
+
+ These commands let you inspect and change your configuration.  Read
+Configuration lists your current configuration, while Enter Configuration
+lets you change screen width, number of nulls, upper/lowercase, tabs,
+helpful hints and whether you are listed in the userlog or not.
+
+ Changing you Password.
+
+ .EP  -- Enter Password
+
+ This command lets you enter new initials and password.  Each of these
+can be up to nineteen characters long and contain any printable characters.
+
+ Related Topics
+
+ .h SPECIAL
+

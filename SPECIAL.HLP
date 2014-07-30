@@ -1,0 +1,51 @@
+ HELP SPECIAL
+
+ Special Features of Citadel
+
+ Locking Out Rooms.
+
+ .EX  -- Enter eXclude-Room
+ X    -- eXclude Room
+
+ This room will be excluded from the default go-to rooms with unread
+messages search.  You can still see the room in the Known rooms
+list, and .Goto it explicitly.  To re-include a room, you must apply
+this command again in the same room.
+
+ Status information
+
+ .RC  -- Read Configuration
+ .RS  -- Read Status
+
+ Read Configuration gives userlog specific information, such as terminal
+configurations, forwarding address, groups memberships, and default hallways.
+Read Status gives system-wide global information, like the highest
+current message number, average message length, how long the system
+has been running, and how long the current user has been logged in.
+
+
+ Userlog.
+
+ .RU  -- Read Userlog
+ .RVU -- Read Verbose Userlog
+
+ These commands list all listed users of the system.  The verbose option
+prints out the call number along with the user's name.
+
+ Special commands:
+
+ >  -- Previous hallway.
+ <  -- Next hallway.
+
+
+ Various and Sundry.
+
+ Goto roomname accepts partial roomname matches.  To avoid ambiguities, it
+searches forward from the current room.
+
+ Related Topics
+
+ .h LOGIN
+ .h MESSAGE
+ .h ROOM
+
